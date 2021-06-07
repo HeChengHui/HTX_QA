@@ -1,7 +1,7 @@
 # HTX_QA
 
 ## To-Do list
-- [ ] 1) Get a basic framework set up
+- [x] 1) Get a basic framework set up
 - Dataset: https://pastebin.com/n3AbdZUc
 - Using 1 model: https://huggingface.co/deepset/roberta-base-squad2 (Most downloads among other QA models)  
 - [ ] 2) Set up basic framework with multiple models
