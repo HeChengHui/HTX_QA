@@ -1,4 +1,5 @@
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
+from datetime import datetime
 
 # read the context from a text file
 with open ("random context.txt", "r", encoding='utf-8') as myfile:
@@ -6,7 +7,7 @@ with open ("random context.txt", "r", encoding='utf-8') as myfile:
 
 # QUESTION EDIT
 QA_input = {
-    'question': 'what i graduate with',
+    'question': 'what is my job',
     'context': data
 }
 #------------------------------------------------------------------------------------------------
@@ -20,7 +21,10 @@ Please select mode:
 """
 UserMode = input(UserSelectMode) # take in string input
 
+
+start = datetime.now()
 # different modes
+# Note that albert model needs transformers[sentencepiece] to work
 if UserMode == "1":
     Mode1ModelSelect = '''
     Please select a model to use:
@@ -57,7 +61,10 @@ if UserMode == "1":
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     
     # print out the answer
-    print(res['answer'])
+    # print res to show score and answer
+    print(res)
+    # print(res['answer'])
+    print(datetime.now() - start)
         
         
 elif UserMode == "2":
@@ -116,8 +123,11 @@ elif UserMode == "2":
     tokenizer2 = AutoTokenizer.from_pretrained(model_name2)
     
     # print out the answer
-    print(res1['answer'])
-    print(res2['answer'])
+    print(res1)
+    print(res2)
+    # print(res1['answer'])
+    # print(res2['answer'])
+    print(datetime.now() - start)
     
 elif UserMode == "3":
     # load all the models
@@ -158,11 +168,19 @@ elif UserMode == "3":
     tokenizer6 = AutoTokenizer.from_pretrained(model_name6)
     
     # print out the answer
-    print(res1['answer'])
-    print(res2['answer'])
-    print(res3['answer'])
-    print(res4['answer'])
-    print(res5['answer'])
-    print(res6['answer'])
+    print(res1)
+    print(res2)
+    print(res3)
+    print(res4)
+    print(res5)
+    print(res6)
+    # print(res1['answer'])
+    # print(res2['answer'])
+    # print(res3['answer'])
+    # print(res4['answer'])
+    # print(res5['answer'])
+    # print(res6['answer'])
+    print(datetime.now() - start)
+    
     
 
