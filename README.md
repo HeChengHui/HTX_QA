@@ -8,7 +8,11 @@
 - Same dataset
 - Models: https://huggingface.co/models?pipeline_tag=question-answering
 - [ ] 3) Test framework with practical datasets
-- Dataset: SPF & ICA websites
-- [ ] 4) GUI
+- Dataset: HTX website + speeches (by Pang Wei) and News section (ownself scrape)
+- [ ] 4) Install and test alternate open-source systems
+- DeepPavlov (https://github.com/deepmipt/DeepPavlov)
+- Haystack (https://github.com/deepset-ai/haystack)
+- [ ] 5) Try to integrate both 3) and 4)
+- [ ] 6) GUI
 
 To-Do list subject to changes.
