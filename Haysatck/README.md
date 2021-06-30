@@ -17,3 +17,5 @@ As of 30th June 2021:
 - Able to use both BM25 and DPR as retriever
 - FARMReader crashes the computer, TransformersReader works
 - Initial testing shows better results when running BM25 + TransformersReader on HTX_News
+
+For first-time users, do run the .py file step by step to setup the index and document store.
