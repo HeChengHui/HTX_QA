@@ -7,11 +7,11 @@
 - [x] 2) Set up basic framework with multiple models
 - Same dataset
 - Models: https://huggingface.co/models?pipeline_tag=question-answering
-- [ ] 3) Test framework with practical datasets
+- [x] 3) Test framework with practical datasets
 - Dataset: HTX website + speeches (by Pang Wei) and News section (ownself scrape)
 - [ ] 4) Install and test alternate open-source systems
-- DeepPavlov (https://github.com/deepmipt/DeepPavlov)
-- Haystack (https://github.com/deepset-ai/haystack)
+- DeepPavlov (https://github.com/deepmipt/DeepPavlov)  [Not Tested]
+- Haystack (https://github.com/deepset-ai/haystack) [Tested]
 - [ ] 5) Try to integrate both 3) and 4)
 - [ ] 6) GUI
 
