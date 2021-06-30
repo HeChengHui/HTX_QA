@@ -1,6 +1,9 @@
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 from datetime import datetime
 import pandas as pd
+import torch
+import gc
+
 
 # remove \n and +
 def clean_data(data):
@@ -19,9 +22,10 @@ context = str(data.values)
 
 # QUESTION EDIT
 QA_input = {
-    'question': 'Who can use Iris and Facial Scans',
+    'question': 'steps for PSHNs',
     'context': context
 }
+# print(getsizeof(context))
 # ------------------------------------------------------------------------------------------------
 
 # ask the user which mode they want to use
@@ -49,7 +53,7 @@ if UserMode == "1":
     '''
 
     Mode1UserModel = input(Mode1ModelSelect)
-    # load the selected model
+    # selected the model
     if Mode1UserModel == "1":
         model_name = "deepset/roberta-base-squad2"
     elif Mode1UserModel == "2":
@@ -79,7 +83,11 @@ if UserMode == "1":
     # print(res['answer'])
     print(datetime.now() - start)
 
-
+    # testing some garbage collection to free memory
+    del model, tokenizer, nlp, context, QA_input
+    gc.collect()
+    torch.cuda.empty_cache()
+    
 elif UserMode == "2":
     print('''
     Please select 2 models to use:
@@ -94,7 +102,7 @@ elif UserMode == "2":
     Mode2UserModel1 = input("Model 1:")
     Mode2UserModel2 = input("Model 2:")
 
-   # load the model1
+   # select model1
     if Mode2UserModel1 == "1":
         model_name1 = "deepset/roberta-base-squad2"
     elif Mode2UserModel1 == "2":
@@ -108,7 +116,7 @@ elif UserMode == "2":
     elif Mode2UserModel1 == "6":
         model_name1 = "ahotrod/albert_xxlargev1_squad2_512"
 
-    # load model2
+    # select model2
     if Mode2UserModel2 == "1":
         model_name2 = "deepset/roberta-base-squad2"
     elif Mode2UserModel2 == "2":
@@ -143,7 +151,7 @@ elif UserMode == "2":
     print(datetime.now() - start)
 
 elif UserMode == "3":
-    # load all the models
+    # select all the models
     model_name1 = "deepset/roberta-base-squad2"
     model_name2 = "deepset/bert-large-uncased-whole-word-masking-squad2"
     model_name3 = "bert-large-uncased-whole-word-masking-finetuned-squad"
