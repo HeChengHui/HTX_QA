@@ -28,13 +28,13 @@ context_News = data_News.values
 context_Website = data_Website.values
 
 ## context made into a dict type for the documentstore to index
-context_json_News = [
-    {
-      'text' : paragraph,
-      'meta' : {
-          'source': 'News'}
-      } for paragraph in context_News # so each 'text' is a article.
-    ]
+# context_json_News = [
+#     {
+#       'text' : paragraph,
+#       'meta' : {
+#           'source': 'News'}
+#       } for paragraph in context_News # so each 'text' is a article.
+#     ]
 # print(context_json_News[:3]) # check the first 3 articles
 # print(len(context_json_News)) # check the number of articles
 
@@ -57,6 +57,7 @@ context_json_Website = [
 # document_store.write_documents(context_json_Website)
 
 ## check how many items in the document store of document
+## ValueError: max() arg is an empty sequence if is empty
 # print(document_store.describe_documents())
 
 ## Check what is inside document store
@@ -67,8 +68,8 @@ context_json_Website = [
 
 # # STEP 2: Initialise the Retriever ------------------------------------------------------------------------------------------------------------------------------
 ## BM25 method
-# from haystack.retriever.sparse import ElasticsearchRetriever
-# retriever = ElasticsearchRetriever(document_store=document_store)
+from haystack.retriever.sparse import ElasticsearchRetriever
+retriever = ElasticsearchRetriever(document_store=document_store)
 ## For this method, no need to update any embeddings.
 
 # DPR method
@@ -97,24 +98,28 @@ context_json_Website = [
 # reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
 
 ## Tranformer method
-# from haystack.reader.transformers import TransformersReader
-# reader = TransformersReader(
-#     model_name_or_path="deepset/roberta-base-squad2", use_gpu=0)
+from haystack.reader.transformers import TransformersReader
+reader = TransformersReader(
+    model_name_or_path="deepset/roberta-base-squad2", use_gpu=0, max_seq_len=512
+    )
 ## use_gpu <0, use CPU. Else GPU.
+## max_seq_len default is 256, 512 seems to give better answers. 768 gives errors.
 # # END OF STEP 3 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # # STEP 4: Initialise the Pipeline ------------------------------------------------------------------------------------------------------------------------------
-# from haystack.pipeline import ExtractiveQAPipeline
-# pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
+from haystack.pipeline import ExtractiveQAPipeline
+pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
 # # END OF STEP 4 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # # STEP 5: Question-Answer ------------------------------------------------------------------------------------------------------------------------------
-# from haystack.utils import print_answers
+from haystack.utils import print_answers
+from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
 ## The higher top_k_retriever, the better (but also the slower) your answers. 
-# prediction = pipe.run(query="who is clara ho?", top_k_retriever=5, top_k_reader=5)
-# print_answers(prediction, details="all")
-
+start = datetime.now()
+prediction = pipe.run(query="Who is Clara Ho?", top_k_retriever=5, top_k_reader=5)
+print_answers(prediction, details="all")
+print(datetime.now() - start) # print how long it takes to give the answer
 
