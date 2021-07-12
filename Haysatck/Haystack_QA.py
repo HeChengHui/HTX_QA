@@ -8,24 +8,24 @@ document_store = ElasticsearchDocumentStore( # initialise the document store
 # print(requests.get("http://localhost:9200/_cat/indices").text)
 
 ## STEP 1: Get the context ready and send it into the document store to be index by elasticsearch----------------------------------------------------------------
-import pandas as pd
+# import pandas as pd
 ## remove \n and +
-def clean_data(data):
-    data.replace('\n', ' ', regex=True, inplace=True)
-    data.replace(' +', ' ', regex=True, inplace=True)
-    data.replace('\t', ' ', regex=True, inplace=True) # only include cause got 1 occurance in News section
-    data = data.str.strip()
-    return data
+# def clean_data(data):
+#     data.replace('\n', ' ', regex=True, inplace=True)
+#     data.replace(' +', ' ', regex=True, inplace=True)
+#     data.replace('\t', ' ', regex=True, inplace=True) # only include cause got 1 occurance in News section
+#     data = data.str.strip()
+#     return data
 
 ## read from xlsx file (for >1 worksheet support)
 ## Since December 2020 xlrd no longer supports xlsx-Files, so need use openpyxl
-df_News = pd.read_excel('HTX knowledge base.xlsx', sheet_name='News', engine='openpyxl')
-df_Website = pd.read_excel('HTX knowledge base.xlsx', sheet_name='Website', engine='openpyxl')
-data_News = clean_data(df_News['article_content'])
-data_Website = clean_data(df_Website['article_content'])
+# df_News = pd.read_excel('HTX knowledge base.xlsx', sheet_name='News', engine='openpyxl')
+# df_Website = pd.read_excel('HTX knowledge base.xlsx', sheet_name='Website', engine='openpyxl')
+# data_News = clean_data(df_News['article_content'])
+# data_Website = clean_data(df_Website['article_content'])
 ## data_xxx.values shows all the context in a numpy.ndarray type.
-context_News = data_News.values
-context_Website = data_Website.values
+# context_News = data_News.values
+# context_Website = data_Website.values
 
 ## context made into a dict type for the documentstore to index
 # context_json_News = [
@@ -39,13 +39,13 @@ context_Website = data_Website.values
 # print(len(context_json_News)) # check the number of articles
 
 ## context made into a dict type for the documentstore to index
-context_json_Website = [
-    {
-      'text' : paragraph,
-      'meta' : {
-          'source': 'Website'}
-      } for paragraph in context_Website # so each 'text' is a article.
-    ]
+# context_json_Website = [
+#     {
+#       'text' : paragraph,
+#       'meta' : {
+#           'source': 'Website'}
+#       } for paragraph in context_Website # so each 'text' is a article.
+#     ]
 # print(context_json_Website[:3]) # check the first 3 articles
 # print(len(context_json_Website)) # check the number of articles
 
@@ -59,6 +59,9 @@ context_json_Website = [
 ## check how many items in the document store of document
 ## ValueError: max() arg is an empty sequence if is empty
 # print(document_store.describe_documents())
+## with News + Website should have 31+15=49 articles
+## Use the below to check for embeddings when using DPR
+# print(document_store.get_embedding_count())
 
 ## Check what is inside document store
 # print(document_store.get_all_documents())
@@ -72,8 +75,8 @@ from haystack.retriever.sparse import ElasticsearchRetriever
 retriever = ElasticsearchRetriever(document_store=document_store)
 ## For this method, no need to update any embeddings.
 
-# DPR method
-# Use embedding models from huggingface. 
+## DPR method
+## Use embedding models from huggingface. 
 # from haystack.retriever.dense import DensePassageRetriever
 # retriever = DensePassageRetriever(document_store=document_store,
 #                                 query_embedding_model="facebook/dpr-question_encoder-single-nq-base",
@@ -91,17 +94,18 @@ retriever = ElasticsearchRetriever(document_store=document_store)
 # print(retriever.retrieve('what is HTX?'))
 # # END OF STEP 2 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-
 # # STEP 3: Initialise the Reader ------------------------------------------------------------------------------------------------------------------------------
 ## FARM method
-# from haystack.reader.farm import FARMReader
+from haystack.reader.farm import FARMReader
 # reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True)
+reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True,
+                    num_processes=1, max_seq_len=512)
 
 ## Tranformer method
-from haystack.reader.transformers import TransformersReader
-reader = TransformersReader(
-    model_name_or_path="deepset/roberta-base-squad2", use_gpu=0, max_seq_len=512
-    )
+# from haystack.reader.transformers import TransformersReader
+# reader = TransformersReader(
+#     model_name_or_path="deepset/roberta-base-squad2", use_gpu=0, max_seq_len=512
+#     )
 ## use_gpu <0, use CPU. Else GPU.
 ## max_seq_len default is 256, 512 seems to give better answers. 768 gives errors.
 # # END OF STEP 3 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -119,7 +123,6 @@ from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
 ## The higher top_k_retriever, the better (but also the slower) your answers. 
 start = datetime.now()
-prediction = pipe.run(query="Who is Clara Ho?", top_k_retriever=5, top_k_reader=5)
+prediction = pipe.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
 print_answers(prediction, details="all")
 print(datetime.now() - start) # print how long it takes to give the answer
-
