@@ -13,9 +13,14 @@
 3) Combine the News csv file with the rest given by Pang Wei and add it to the document store
 
 ## Note
+As of 12th July 2021:
+- Fixed crashing of FARMReader by setting the num_processes to either 0 or 1 (both disable multi-processing)
+- Testing of FARMReader + BM25 shows less favorable results compared to TransformersReader + BM25
+
 As of 30th June 2021:
 - Able to use both BM25 and DPR as retriever
 - FARMReader crashes the computer, TransformersReader works
 - Initial testing shows better results when running BM25 + TransformersReader on HTX_News
+
 
 For first-time users, do run the .py file step by step to setup the index and document store.
