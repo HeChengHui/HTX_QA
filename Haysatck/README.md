@@ -8,11 +8,13 @@
 
 
 ## To-Do-List
-1) Able to properly instsall Haystack
-2) Able to run Haystack using the News csv file
-3) Combine the News csv file with the rest given by Pang Wei and add it to the document store
+1) Try out Docker version of Haystack (To see if FAISSdocumentstore works in that)
 
 ## Note
+As of 15th July 2021:
+- Updated Haystack to the verison with SentenceTransformersRanker
+- Added both FARMRanker and SentenceTransformersRanker function to BM25 retriever
+
 As of 12th July 2021:
 - Fixed crashing of FARMReader by setting the num_processes to either 0 or 1 (both disable multi-processing)
 - Testing of FARMReader + BM25 shows less favorable results compared to TransformersReader + BM25
