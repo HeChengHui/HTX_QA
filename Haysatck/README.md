@@ -3,14 +3,22 @@
 - Haystack GitHub: https://github.com/deepset-ai/haystack
 - Steps to install Haystack on Windows, Conda can be found here: https://github.com/deepset-ai/haystack/issues/1049#issuecomment-867532916
 - Elasticsearch installation and info: https://www.elastic.co/guide/en/elasticsearch/reference/current/windows.html
-- If want to run Haystack on GPU, follow the steps given above and then uninstall torch using pip and install from https://pytorch.org/
 - Can also refer to https://www.youtube.com/watch?v=4Jmq28RQ3hU&ab_channel=JamesBriggs (and his series) for steps
 
 
 ## To-Do-List
 1) Try out Docker version of Haystack (To see if FAISSdocumentstore works in that)
+      - As of 16th July, FAISSdocumentstore has no more errors that stop me from using, but still got some weird interactions that need some investigation
+2) Try out custom pipeline configurations
+3) Try out DeepPavlov (https://deeppavlov.ai/)
 
 ## Note
+As of 16th July 2021:
+- Able to use FAISSdocumentstore but has trouble retaining data inside the document store
+    - write doc -> run -> comment out write doc -> print doc count -> run -> get "0"
+    - write doc + print doc count -> run -> get correct amount
+- Same phenomenum when update_embeddings
+
 As of 15th July 2021:
 - Updated Haystack to the verison with SentenceTransformersRanker
 - Added both FARMRanker and SentenceTransformersRanker function to BM25 retriever
