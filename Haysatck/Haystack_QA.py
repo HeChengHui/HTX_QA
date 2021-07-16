@@ -7,7 +7,7 @@ document_store = ElasticsearchDocumentStore( # initialise the document store
 # import requests
 # print(requests.get("http://localhost:9200/_cat/indices").text)
 
-## STEP 1: Get the context ready and send it into the document store to be index by elasticsearch----------------------------------------------------------------
+# # STEP 1: Get the context ready and send it into the document store to be index by elasticsearch----------------------------------------------------------------
 # import pandas as pd
 ## remove \n and +
 # def clean_data(data):
@@ -65,7 +65,6 @@ document_store = ElasticsearchDocumentStore( # initialise the document store
 
 ## Check what is inside document store
 # print(document_store.get_all_documents())
-
 # # END OF STEP 1 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -75,20 +74,20 @@ from haystack.retriever.sparse import ElasticsearchRetriever
 retriever = ElasticsearchRetriever(document_store=document_store)
 ## For this method, no need to update any embeddings.
 ## Ranker -> SentenceTransformersRanker
-# from haystack.ranker import SentenceTransformersRanker
-# from haystack import Pipeline
-# ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
-# p = Pipeline()
-# p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
-# p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
-## Ranker -> FARMRanker
-from haystack.ranker import FARMRanker
+from haystack.ranker import SentenceTransformersRanker
 from haystack import Pipeline
-ranker = FARMRanker(model_name_or_path="nboost/pt-tinybert-msmarco", 
-                    num_processes=0, use_gpu=True)
+ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
 p = Pipeline()
 p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
 p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
+## Ranker -> FARMRanker
+# from haystack.ranker import FARMRanker
+# from haystack import Pipeline
+# ranker = FARMRanker(model_name_or_path="nboost/pt-tinybert-msmarco", 
+#                     num_processes=0, use_gpu=True)
+# p = Pipeline()
+# p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
+# p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
 
 
 ## DPR method
@@ -138,6 +137,7 @@ from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
 ## The higher top_k_retriever, the better (but also the slower) your answers. 
 start = datetime.now()
-prediction = pipe.run(query="steps for PSHNs", top_k_retriever=5, top_k_reader=5)
+prediction = pipe.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
 print_answers(prediction, details="all")
 print(datetime.now() - start) # print how long it takes to give the answer
+# # END OF STEP 5 ------------------------------------------------------------------------------------------------------------------------------
