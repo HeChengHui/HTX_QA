@@ -75,11 +75,7 @@ retriever = ElasticsearchRetriever(document_store=document_store)
 ## For this method, no need to update any embeddings.
 ## Ranker -> SentenceTransformersRanker
 from haystack.ranker import SentenceTransformersRanker
-from haystack import Pipeline
 ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
-p = Pipeline()
-p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
-p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
 ## Ranker -> FARMRanker
 # from haystack.ranker import FARMRanker
 # from haystack import Pipeline
@@ -90,7 +86,7 @@ p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
 # p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
 
 
-## DPR method
+## DPR method (not very good from testing)
 ## Use embedding models from huggingface. 
 # from haystack.retriever.dense import DensePassageRetriever
 # retriever = DensePassageRetriever(document_store=document_store,
@@ -126,8 +122,15 @@ reader = TransformersReader(
 
 
 # # STEP 4: Initialise the Pipeline ------------------------------------------------------------------------------------------------------------------------------
-from haystack.pipeline import ExtractiveQAPipeline
-pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
+## This is just using EQAPipeline
+# from haystack.pipeline import ExtractiveQAPipeline
+# pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
+## This uses a custom pipeline that has a ranker before going into a reader
+from haystack import Pipeline
+p = Pipeline()
+p.add_node(component=retriever, name="Retriever", inputs=["Query"])
+p.add_node(component=ranker, name="Ranker", inputs=["Retriever"])
+p.add_node(component=reader,name="Reader", inputs=["Ranker"])
 # # END OF STEP 4 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -137,7 +140,10 @@ from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
 ## The higher top_k_retriever, the better (but also the slower) your answers. 
 start = datetime.now()
-prediction = pipe.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
+prediction = p.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
 print_answers(prediction, details="all")
 print(datetime.now() - start) # print how long it takes to give the answer
 # # END OF STEP 5 ------------------------------------------------------------------------------------------------------------------------------
+
+## draws the pipeline nodes to see where our outputs are going into
+# p.draw(path="custom_pipe2.png")
