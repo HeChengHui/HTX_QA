@@ -73,18 +73,6 @@ document_store = ElasticsearchDocumentStore( # initialise the document store
 from haystack.retriever.sparse import ElasticsearchRetriever
 retriever = ElasticsearchRetriever(document_store=document_store)
 ## For this method, no need to update any embeddings.
-## Ranker -> SentenceTransformersRanker
-from haystack.ranker import SentenceTransformersRanker
-ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
-## Ranker -> FARMRanker
-# from haystack.ranker import FARMRanker
-# from haystack import Pipeline
-# ranker = FARMRanker(model_name_or_path="nboost/pt-tinybert-msmarco", 
-#                     num_processes=0, use_gpu=True)
-# p = Pipeline()
-# p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
-# p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
-
 
 ## DPR method (not very good from testing)
 ## Use embedding models from huggingface. 
@@ -95,17 +83,33 @@ ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-M
 #                                 use_gpu=True,
 #                                 embed_title=True
 #                                 )
-## Important: 
-## Now that after we have the DPR initialized, we need to call update_embeddings() to iterate over all
-## previously indexed documents and update their embedding representation. 
-## While this can be a time consuming operation (depending on corpus size), it only needs to be done once. 
-## At query time, we only need to embed the query and compare it the existing doc embeddings which is very fast.
+''' Important: 
+Now that after we have the DPR initialized, we need to call update_embeddings() to iterate over all
+previously indexed documents and update their embedding representation. 
+While this can be a time consuming operation (depending on corpus size), it only needs to be done once. 
+At query time, we only need to embed the query and compare it the existing doc embeddings which is very fast.'''
 # document_store.update_embeddings(retriever)
 ## check retriever working
 # print(retriever.retrieve('what is HTX?'))
 # # END OF STEP 2 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-# # STEP 3: Initialise the Reader ------------------------------------------------------------------------------------------------------------------------------
+
+# # STEP 3: Initialise the Ranker ------------------------------------------------------------------------------------------------------------------------------
+'''In their documentation, it is said to improve results by taking semantics into account,
+at the cost of speed. Use when the results you get when just using retriever isn't 
+similar to what you are asking. In this case of HTX website, with or ranker seems to 
+yield no difference in results using the 10 questions I set.'''
+## Ranker -> SentenceTransformersRanker
+# from haystack.ranker import SentenceTransformersRanker
+# ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
+## Ranker -> FARMRanker
+# from haystack.ranker import FARMRanker
+# ranker = FARMRanker(model_name_or_path="nboost/pt-tinybert-msmarco", 
+#                     num_processes=0, use_gpu=True)
+# # END OF STEP 3 -------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# # STEP 4: Initialise the Reader ------------------------------------------------------------------------------------------------------------------------------
 ## FARM method
 # from haystack.reader.farm import FARMReader
 # reader = FARMReader(model_name_or_path="deepset/roberta-base-squad2", use_gpu=True,
@@ -118,23 +122,24 @@ reader = TransformersReader(
     )
 ## use_gpu <0, use CPU. Else GPU.
 ## max_seq_len default is 256, 512 seems to give better answers. 768 gives errors.
-# # END OF STEP 3 -------------------------------------------------------------------------------------------------------------------------------------------------
+# # END OF STEP 4 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# # STEP 4: Initialise the Pipeline ------------------------------------------------------------------------------------------------------------------------------
-## This is just using EQAPipeline
+# # STEP 5: Initialise the Pipeline ------------------------------------------------------------------------------------------------------------------------------
+## This is just using EQAPipeline (retriever & reader only)
 # from haystack.pipeline import ExtractiveQAPipeline
 # pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
+
 ## This uses a custom pipeline that has a ranker before going into a reader
 from haystack import Pipeline
 p = Pipeline()
 p.add_node(component=retriever, name="Retriever", inputs=["Query"])
 p.add_node(component=ranker, name="Ranker", inputs=["Retriever"])
 p.add_node(component=reader,name="Reader", inputs=["Ranker"])
-# # END OF STEP 4 -------------------------------------------------------------------------------------------------------------------------------------------------
+# # END OF STEP 5 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# # STEP 5: Question-Answer ------------------------------------------------------------------------------------------------------------------------------
+# # STEP 6: Question-Answer ------------------------------------------------------------------------------------------------------------------------------
 from haystack.utils import print_answers
 from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
@@ -143,7 +148,7 @@ start = datetime.now()
 prediction = p.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
 print_answers(prediction, details="all")
 print(datetime.now() - start) # print how long it takes to give the answer
-# # END OF STEP 5 ------------------------------------------------------------------------------------------------------------------------------
+# # END OF STEP 6 ------------------------------------------------------------------------------------------------------------------------------
 
-## draws the pipeline nodes to see where our outputs are going into
+## draws the pipeline nodes to see where our outputs are going into.
 # p.draw(path="custom_pipe2.png")
