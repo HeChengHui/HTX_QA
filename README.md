@@ -12,7 +12,6 @@
 - [ ] 4) Install and test alternate open-source systems
 - DeepPavlov (https://github.com/deepmipt/DeepPavlov)  [Not Tested]
 - Haystack (https://github.com/deepset-ai/haystack) [Tested]
-- [ ] 5) Try to integrate both 3) and 4)
-- [ ] 6) GUI
+    - Demo: https://colab.research.google.com/drive/1usrI9eyKYbE-pEwMVstulL35RjHDbFXY?usp=sharing (No custom pipeline like multuple retrievers)
 
 To-Do list subject to changes.
