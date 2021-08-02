@@ -13,6 +13,10 @@
 3) Try out DeepPavlov (https://deeppavlov.ai/)
 
 ## Note
+As of 2nd August 2021:
+- Added a temporary function to check out the documents the retriever(s). An official way to do this is still in the works by the Dev team.
+- Added a Jupyter Notebook copy 
+
 As of 16th July 2021:
 - Able to use FAISSdocumentstore but has trouble retaining data inside the document store
     - write doc -> run -> comment out write doc -> print doc count -> run -> get "0"
