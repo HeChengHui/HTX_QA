@@ -7,10 +7,7 @@
 
 
 ## To-Do-List
-1) Try out Docker version of Haystack (To see if FAISSdocumentstore works in that)
-      - As of 16th July, FAISSdocumentstore has no more errors that stop me from using, but still got some weird interactions that need some investigation
-2) Try out custom pipeline configurations
-3) Try out DeepPavlov (https://deeppavlov.ai/)
+1) Look into LFQA, is it possible?
 
 ## Note
 As of 2nd August 2021:
