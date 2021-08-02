@@ -58,8 +58,8 @@ document_store = ElasticsearchDocumentStore( # initialise the document store
 
 ## check how many items in the document store of document
 ## ValueError: max() arg is an empty sequence if is empty
+## with News + Website should have 31+15=46 articles
 # print(document_store.describe_documents())
-## with News + Website should have 31+15=49 articles
 ## Use the below to check for embeddings when using DPR
 # print(document_store.get_embedding_count())
 
@@ -76,32 +76,33 @@ retriever = ElasticsearchRetriever(document_store=document_store)
 
 ## DPR method (not very good from testing)
 ## Use embedding models from huggingface. 
-# from haystack.retriever.dense import DensePassageRetriever
-# retriever = DensePassageRetriever(document_store=document_store,
-#                                 query_embedding_model="facebook/dpr-question_encoder-single-nq-base",
-#                                 passage_embedding_model="facebook/dpr-ctx_encoder-single-nq-base",
-#                                 use_gpu=True,
-#                                 embed_title=True
-#                                 )
+from haystack.retriever.dense import DensePassageRetriever
+dpr_retriever = DensePassageRetriever(document_store=document_store,
+                                query_embedding_model="facebook/dpr-question_encoder-single-nq-base",
+                                passage_embedding_model="facebook/dpr-ctx_encoder-single-nq-base",
+                                use_gpu=True,
+                                )
 ''' Important: 
 Now that after we have the DPR initialized, we need to call update_embeddings() to iterate over all
 previously indexed documents and update their embedding representation. 
 While this can be a time consuming operation (depending on corpus size), it only needs to be done once. 
 At query time, we only need to embed the query and compare it the existing doc embeddings which is very fast.'''
-# document_store.update_embeddings(retriever)
+# document_store.update_embeddings(dpr_retriever)
 ## check retriever working
-# print(retriever.retrieve('what is HTX?'))
+# print(retriever.retrieve('Who is Clara Ho?'))
+# print("-----------------------------------------------------------------------------------------------------------------------------------------------------------")
+# print(dpr_retriever.retrieve('Who is Clara Ho?'))
 # # END OF STEP 2 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# # STEP 3: Initialise the Ranker ------------------------------------------------------------------------------------------------------------------------------
+# # # STEP 3: Initialise the Ranker ------------------------------------------------------------------------------------------------------------------------------
 '''In their documentation, it is said to improve results by taking semantics into account,
 at the cost of speed. Use when the results you get when just using retriever isn't 
 similar to what you are asking. In this case of HTX website, with or ranker seems to 
 yield no difference in results using the 10 questions I set.'''
 ## Ranker -> SentenceTransformersRanker
-# from haystack.ranker import SentenceTransformersRanker
-# ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
+from haystack.ranker import SentenceTransformersRanker
+ranker = SentenceTransformersRanker(model_name_or_path="cross-encoder/ms-marco-MiniLM-L-6-v2")
 ## Ranker -> FARMRanker
 # from haystack.ranker import FARMRanker
 # ranker = FARMRanker(model_name_or_path="nboost/pt-tinybert-msmarco", 
@@ -128,15 +129,45 @@ reader = TransformersReader(
 # # STEP 5: Initialise the Pipeline ------------------------------------------------------------------------------------------------------------------------------
 ## This is just using EQAPipeline (retriever & reader only)
 # from haystack.pipeline import ExtractiveQAPipeline
-# pipe = ExtractiveQAPipeline(reader=reader, retriever=retriever)
+# p = ExtractiveQAPipeline(reader=reader, retriever=dpr_retriever)
 
 ## This uses a custom pipeline that has a ranker before going into a reader
+# from haystack import Pipeline
+# p = Pipeline()
+# p.add_node(component=retriever, name="Retriever", inputs=["Query"])
+# p.add_node(component=ranker, name="Ranker", inputs=["Retriever"])
+# p.add_node(component=reader,name="Reader", inputs=["Ranker"]) # Change the input to Ranker or Retriever accordingly
+
+## This part initialise the EvalDocuments function and add a dummy label to check what 
+## documents the retriever got.
+from haystack.eval import EvalDocuments
+eval_es = EvalDocuments(debug=True)
+eval_dpr = EvalDocuments(debug=True)
+
+from haystack import MultiLabel
+l = MultiLabel(question="dummy_text",
+               multiple_answers=["dummy_text"],
+               multiple_document_ids=["x"],
+               multiple_offset_start_in_docs=[0],
+               is_correct_answer=False,
+               is_correct_document=False,
+               origin="dummy_text")
+
+
+## Muliple retrievers (requires both retriever to be initiated)
 from haystack import Pipeline
+from haystack.pipeline import JoinDocuments
 p = Pipeline()
-p.add_node(component=retriever, name="Retriever", inputs=["Query"])
-p.add_node(component=ranker, name="Ranker", inputs=["Retriever"])
-p.add_node(component=reader,name="Reader", inputs=["Ranker"])
-# # END OF STEP 5 -------------------------------------------------------------------------------------------------------------------------------------------------
+p.add_node(component=retriever, name="ESRetriever", inputs=["Query"])
+p.add_node(component=eval_es, name="ESEval", inputs=["ESRetriever"])
+# p.add_node(component=ranker, name="Ranker", inputs=["ESRetriever"])
+p.add_node(component=dpr_retriever, name="DPRRetriever", inputs=["Query"])
+p.add_node(component=eval_dpr, name="DPREval", inputs=["DPRRetriever"])
+p.add_node(component=JoinDocuments(join_mode="concatenate", top_k_join=5), name="JoinResults", inputs=["ESEval", "DPREval"])
+# p.add_node(component=ranker, name="Ranker", inputs=["JoinResults"])
+p.add_node(component=reader, name="QAReader", inputs=["JoinResults"])
+
+# # # END OF STEP 5 -------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 # # STEP 6: Question-Answer ------------------------------------------------------------------------------------------------------------------------------
@@ -145,10 +176,14 @@ from datetime import datetime
 ## You can configure how many candidates the reader and retriever shall return
 ## The higher top_k_retriever, the better (but also the slower) your answers. 
 start = datetime.now()
-prediction = p.run(query="who made a speech at the official launch of HTX", top_k_retriever=5, top_k_reader=5)
+prediction = p.run(query="Who is Clara Ho?", top_k_retriever=5, top_k_reader=5, labels=l)
 print_answers(prediction, details="all")
-print(datetime.now() - start) # print how long it takes to give the answer
+print(datetime.now() - start) # print how long it takes to run the pipeline and get the answer
 # # END OF STEP 6 ------------------------------------------------------------------------------------------------------------------------------
 
 ## draws the pipeline nodes to see where our outputs are going into.
-# p.draw(path="custom_pipe2.png")
+# p.draw(path="custom_pipe.png")
+
+## Use this to check the what documents the retrievers got.
+# print(eval_es.log)
+# print(eval_dpr.log)
