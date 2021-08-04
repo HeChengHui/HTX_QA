@@ -14,4 +14,4 @@
     - Demo: https://colab.research.google.com/drive/1usrI9eyKYbE-pEwMVstulL35RjHDbFXY?usp=sharing (No custom pipeline like multuple retrievers)
 
 
-This Repo would not be updated after 6th August 2021
+**IMPORTANT: This Repo would not be updated after 6th August 2021**
