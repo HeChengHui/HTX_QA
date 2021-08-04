@@ -5,10 +5,6 @@
 - Elasticsearch installation and info: https://www.elastic.co/guide/en/elasticsearch/reference/current/windows.html
 - Can also refer to https://www.youtube.com/watch?v=4Jmq28RQ3hU&ab_channel=JamesBriggs (and his series) for steps
 
-
-## To-Do-List
-1) Look into LFQA, is it possible?
-
 ## Note
 As of 2nd August 2021:
 - Added a temporary function to check out the documents the retriever(s). An official way to do this is still in the works by the Dev team.
