@@ -30,4 +30,4 @@ As of 30th June 2021:
 - Initial testing shows better results when running BM25 + TransformersReader on HTX_News
 
 
-**NOTE: For first-time users, do run the .py file step by step to setup the index and document store.**
+**For first-time users, do run the .py file step by step to setup the index and document store.**
