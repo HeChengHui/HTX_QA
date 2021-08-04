@@ -1,0 +1,1623 @@
+article_title,source_date,article_link,article_content,,* Source_date refers to the date that the article is placed into this CSV
+[FEATURED NEWS] HTX’S ONLINE CYBERSQUAT HUNTER BEATS SCAMS AT THEIR OWN GAME,18-Jun-21,https://www.htx.gov.sg/news/featured-news-htx-s-online-cybersquat-hunter-beats-scams-at-their-own-game,"HTX’s newest innovation hunts down phishing websites to keep Singapore’s cyberspace safe.
+
+At first glance, these two ICA websites look completely identical. Only upon closer inspection, does the viewer realise that the URLs are different. But to the Online Cybersquat Hunter, the differences are blindingly obvious.
+
+Figure 1. Screenshot of ICA Public Advisory (Credit: ICA)
+
+Online phishing scams, such as the fake ICA one above, have seen a tenfold increase from 2019 to 2020. Many malicious websites pose as official websites to deceive victims into divulging sensitive information, such as passwords and credit card details.
+
+In many cases, these sites are only reported to the police after the scammers have already gained access to the victim’s information and the damage is done.
+
+That is why HTX’s Q Team Centre of Expertise made it their mission to pre-emptively hunt down these malicious sites and exponentially increase police efforts in shutting down scams – by creating the Online Cybersquat Hunter (OCH).
+
+How it works
+
+The OCH uses AI with image and text analytics to automatically detect fake sites before they are even reported.
+
+It does this by crawling through up to 500,000 websites on the public domain daily to see if they contain domain names, logos, and key words similar to those used on official websites.
+
+OCH Project Team
+
+Ng Gee Wah – Director, Q Team
+
+Terence Tan – Deputy Director (DD), Q1
+
+Tan Wei Lin – Engineer, Q1
+
+Lim Ming En – Engineer, Q1
+
+Michael Tay – DD Cybersec Ops, Ops Sys SC; DD Exercise & Evaluation, CS COE
+
+Lucas Kan – Head, Cybersec SOC Ops, Ops Systems SC
+
+Figure 2. From left to right: Engineer Tan Wei Lin, Director Ng Gee Wah, Deputy Director Terence Tan, Engineer Lim Ming En. Deputy Director Michael Tay and Head of Cybersecurity Operations Lucas Kan are not pictured. (Credit: HTX)
+
+Development
+
+Q Team worked with inputs from the Ministry of Home Affairs’ (MHA) Security Operations Centre and Singapore Police Force – developing, prototyping, and rigorously testing out many iterations before settling on the current version.
+
+“At every tool developmental phase, there was significant active discussions, brainstorming of more ideas, defining and shaping attributes that could help us identify fake websites,” said Q Team’s deputy director Dr Terence Tan.
+
+After an intensive month of rapid development, the OCH was deployed in Dec 2020 and has been in use ever since.
+
+Applications
+
+Currently, the OCH is focused on scanning for fake websites targeting MHA’s public service websites, such as the Singapore Police Force, Singapore Civil Defence Force, and ICA. Some key local banks and online delivery services are on trial as well.
+
+“Our technology becomes more sophisticated and better at delivering outcomes, as we understand more about these websites through information gathering as quickly as possible. As our algorithm improves, our outcomes will increase exponentially as well,” said Dr Tan.
+
+Q Team will continue to develop OCH to make it more effective and efficient, ensuring that our cyberspace will be a safer place for all.
+
+The OCH was also covered in the Straits Times on 26 May 2021.
+
+‘Hunter’ targets scam sites in S’pore, even before they can trick people
+
+https://str.sg/3kpT",,
+[FEATURED NEWS] IN CELEBRATION OF TEAM CBRNE AND THEIR ACHIEVEMENTS...,18-Jun-21,https://www.htx.gov.sg/news/featured-news-in-celebration-of-team-cbrne-and-their-achievements,"The month of April 2021 has proven to be both a momentous and evocative month for our team at CBRNE for two reasons.
+
+CBRNE first scored a two-page write-up in CBRNe World's April issue, and second of all, a recognition by Immediate Past Minister for Health Mr Gan Kim Yong for its contributions in the fight against Covid-19 testing.
+
+CBRNe WORLD (April 2021 Issue)
+
+As a young agency with a new team that has been put together for less than 18 months, this two-page write-up in the April 2021 issue puts us firmly on the world stage.
+
+CBRNe World, as we know, is the world’s leading title for all things CBRNE, bringing together the civil society, military leaders, academia, government agencies, research, industry and more.
+
+In it, we had shared what motivates us in what we do, our plans, focus, and the way HTX Centres of Expertise come together and collaborate, as illustrated vividly by our Covid support efforts.
+
+Live Covid-19 Ops (Photo: Zan Xin, CBRNE Associate)
+
+It is indeed a proud moment of reckoning as it marks Singapore and HTX as experts in the field and its contributions to the domain.
+
+Noteworthy at the close of the article, Director May Ong had further made a callout to build on the opportunity to educate and outreach, for global states and institutes to cooperate on the peaceful use of science, considering our environment today. She had separately explained that through demystifying and information sharing, it instills interest in our youths early and creates an understanding of ways to contribute to the world as a scientist.
+
+As Director May Ong says it: “It is one bucket list item achieved!”
+
+To May and the CBRNE team, we say: “Well done! You need to aim way higher now!”
+
+IN CELEBRATION OF GLOBAL MEDICAL LABORATORY PROFESSIONALS WEEK 2021
+
+This year, April 18 to 24, was marked as the Global Medical Laboratory Professionals Week.
+
+In celebration of it, the HTX CBRNE Team was recognized by the Immediate Past Minister for Health Gan Kim Yong, for its participation and efforts.
+
+While not your typical medical laboratory professionals, who can ever forget how the team rose to the occasion, when Covid hit us?
+
+Pivoting from an environmental testing lab, to handle human nature samples in 48 hours, decontaminating the lab, adjusting workflow, adapting skillsets, to steep learning curves of parallel testing, stepping up volumes, recalling and reinforcing resources at HTX Pasir Panjang lab.
+
+In action at Pasir Panjang CBRNE lab facilities (Photos: HTX)
+
+In August 2020, we were awarded the Ministry of Health Private Health Medical Clinic license. The laboratory was further ranked TIER 3 as a result of its performance and speed for results. It is a testament of the medical laboratory work we do and affirmation of confidence of our ability to handle all test cases.
+
+This is truly an amazing accolade.
+
+Thank you to all for the little and big sacrifices made, as we continue our journey.",,
+[MEDIA RELEASE] HARNESSING TECHNOLOGY TO AUGMENT ROAD TRAFFIC ACCIDENT INVESTIGATIONS,18-Jun-21,https://www.htx.gov.sg/news/media-release-harnessing-technology-to-augment-road-traffic-accident-investigations,"Investigation Officers (IOs) from the Traffic Police (TP) of the Singapore Police Force (SPF) and Crime Scene Specialists (CSS) from HTX (Home Team Science & Technology Agency) use technology to carry out proper documentation of road traffic accident scenes, and provide critical information and valuable insights for investigations.
+
+Technology devices that complement officers’ investigations
+
+Terrestrial 3D Scanner
+2          The terrestrial 3D scanner can be operated by a single officer under total darkness or in bright daylight to scan the scene of the traffic accident in minutes, depending on the scale of the accident. It does so by projecting a laser beam within its line of sight onto the surface of objects, creating a comprehensive virtual model of the scene, along with proper documentation of measurements and spatial positioning of key evidence which are critical to the investigation work by the IOs subsequently.
+
+3          Data collected can also be used for the purpose of reconstructing traffic accidents. Stakeholders involved in the investigation can therefore revisit the accident scene multiple times thereafter, without disrupting traffic flow.
+
+Handheld 3D scanner
+4          The handheld 3D scanner is a lightweight and portable device that allows CSS officers to document tight and confined spaces. Used mainly in instances where greater details of a specific area of interest are required, the scans generated complement those from the terrestrial 3D scanner, piecing together more comprehensive information for investigations.
+
+5          Operated by a single CSS, the terrestrial and handheld 3D scanners enable efficient documentation and better analyses, augmenting the capabilities of IOs from the TP during road traffic accident investigations.
+
+6          With traffic accidents usually occurring at high-traffic volume locations under punishing conditions, it is crucial for the accident scene to be processed quickly so as to return it to normalcy as soon as possible. The terrestrial and handheld 3D scanners from HTX are technological devices that enable officers to process the scenes more efficiently without compromising on accuracy, or the safety of officers at the scene.
+
+SINGAPORE POLICE FORCE
+HOME TEAM SCIENCE & TECHNOLOGY AGENCY
+31 MARCH 2021 @ 6:00 AM
+",,
+[FEATURED NEWS] KICKING OFF TECHXCHANGE WITH RENOWNED FORENSIC SCIENTIST DR HENRY LEE,18-Jun-21,https://www.htx.gov.sg/news/featured-news-kicking-off-techxchange-with-renowned-forensic-scientist-dr-henry-lee,"Renowned forensic scientist Dr Henry Lee may be based in the US but he has a good working relationship with HTX. Speaking at the inaugural TechXchange on “The State of Forensic Science in the US” via Zoom on January 20, he recalled how he attended the launch of HTX in 2019 in Singapore. 
+
+“HTX is way ahead of the curve in Forensics because when it comes to the future of forensics, you guys already know about it,” he shared during the Zoom webinar. 
+
+“The future [of Forensics] is going to be related to artificial intelligence and big data for the reconstruction of crime scenes,” he added. 
+
+Known for his critical role in the investigation of the murder cases involving O.J. Simpson and the “Woodchipper” murderer, Dr Lee is the founder of the Henry C. Lee Institute of Forensic Science at the University of New Haven, Connecticut, USA. 
+
+Dr Henry C. Lee conducted an exclusive Zoom Webinar for HTX (Photo Credit: Dr Henry Lee)
+
+“Dr Lee has been a close strategic partner of the Home Team for a good number of years, assisting the Police with several high-profile investigations,” said Dr Portia Loh, Acting Director, HTX Forensics Centre of Expertise (CoE). 
+
+To foster knowledge sharing and dialogue, HTX launched TechXchange, a series of talks that are presented by leading scientists and experts.
+
+“After kicking off TechXchange with such a distinguished personality, the other [sessions] will have a hard act to follow. We are looking at not only eminent authorities in their respective fields from other parts of the world, but also our very own experts from HTX,” she added. 
+
+According to her, Dr Lee was willing to share his insights with HTX staff and colleagues from Home Team Departments (HTDs) given the strong friendship and working relationship built over the years. 
+
+Dr Lee shared photos of his visit to HTX in 2019 during his Zoom webinar
+
+Some 170 HTX staff and colleagues from HTDs signed up for the webinar, eager to learn from the session. 
+
+Dr Kennard Gan, HTX’s Senior Forensic Scientist was spurred by the session to consider the role of new technologies in the field of forensic science. “In the new age of artificial intelligence (AI), forensic scientists have a pivotal role in balancing the tasks assigned to automation and those that require human logic. At this moment, I’d be uncomfortable if I were to be prosecuted based on an AI’s interpretation,” he said. 
+
+Meanwhile, Irene Ng, Senior Crime Scene Specialist, Criminal Investigation Department (CID) said Dr Lee emphasized the importance of pattern evidence in crime scene investigation. This evidence includes blood pattern, paint chips and bite marks, etc., which serve as clues to the sequence of events and link suspects to a crime scene.
+
+As such, Dr Lee stressed that this evidence is as important as identifying evidence such as DNA. 
+
+“This reinforces the need for us as crime scene investigators to carry out careful scene processing and collection to maximise evidence recovery to provide strong and credible forensic analysis for investigations,” said Irene.",,
+[FEATURED NEWS] HTX CONGRATULATES JANET ANG ON NMP APPOINTMENT,18-Jun-21,https://www.htx.gov.sg/news/featured-news-htx-congratulates-janet-ang-on-nmp-appointment,"HTX Board Member, Janet Ang, has been appointed by President Halimah Yacob as one of the nine Nominated Members of Parliament (NMPs) for a 2½ year term from January 21. 
+
+The NMP scheme was introduced in 1990 to ensure a wide representation of views in Parliament.
+
+A veteran in the tech industry, Janet currently chairs HTX’s Finance & Risk Committee. 
+
+We would like to congratulate Janet and wish her every success in her undertakings.
+
+HTX board member Janet Ang has been appointed NMP for a 2½ year term (Photo Credit: HTX)
+",,
+[MEDIA RELEASE] POLICE BEACON - JOINT NEWS RELEASE BY SINGAPORE POLICE FORCE AND HOME TEAM SCIENCE AND TECHNOLOGY AGENCY,18-Jun-21,https://www.htx.gov.sg/news/media-release-police-beacon---joint-news-release-by-singapore-police-force-and-home-team-science-and-technology-agency,"Police Beacon 
+The Singapore Police Force (SPF) and HTX (Home Team Science and Technology Agency) will trial two prototypes of the Police Beacon to augment the Police’s operations at Punggol Waterway Park Connector and Sengkang Riverside Park Connector for a year from December 2020.
+
+The Police Beacon aims to enhance police presence, increase accessibility to emergency services and improve police response to those in need of police assistance in locations that are quieter and more secluded. These are achieved through the integration of various technologies within the Police Beacon. 
+
+Enhanced police presence - The Police Beacon and its CCTVs serve as a visible projection of police presence even when Police officers are not physically present. 
+Increased accessibility - Members of the public can be connected quickly and directly to the Police via the Police Beacon should they require police assistance in emergency situations, especially in locations which are quieter with lower human traffic. 
+Improved response – The Police Beacon is equipped with a range of intervention tools including siren, blinkers, floodlights, speakers and CCTVs which can be activated to aid in interim sense-making by the Police and provide assistance to the public before the arrival of the responding Police officers. 
+The key features of the Police Beacon include:
+
+Motion detection lights. Lights furnished with motion detectors will turn on when a person approaches the Police Beacon. These lights seek to enhance public safety at night, especially in quiet locations.  
+Communications button linked to Police Operations Command Centre (POCC). Members of the public can have direct and real-time access to the Police during an emergency. Through direct interaction with the Police, members of the public will be able to interact directly with the Police, provide information and request for help. 
+CCTVs. The real-time video footages of the Police Beacon’s surroundings can be viewed at POCC, and will complement the Police’s sense-making and incident management capabilities. With the CCTVs, the Police can better assess live situations and thus be better equipped to assist members of the public in real time.
+Police warning system. The blinkers, siren, floodlights and speakers can be remotely operated by the POCC, and can serve as an interim intervention option to provide assistance to members of the public before Police officers arrive. 
+Electronic screen. The electronic screen will display crime prevention messages in support of the Police’s outreach efforts.
+Automated External Defibrillator (AED). Members of the public can have immediate access to interim medical help in an emergency. The Police will also be alerted when the AED box is accessed, and assess if emergency medical services need to be mobilised.
+With these capabilities, the Police Beacon will serve to further deter crime and enhance public safety. Should the trial prove to be successful, the public can look forward to seeing more Police Beacons being deployed in park connectors and other public spaces in future.
+
+The Policing Programme Management Centre (PPMC) at HTX worked with SPF to conceptualise and design the Police Beacon. Bernard Phang, Director of PPMC said, “The Police Beacon is an integration of various technologies such as audio and live-video technologies, and sensors to enable the Police to respond much faster to incidents at public spaces. The Police Beacon acts as an additional node for the public to report incidents during emergencies at the press of a button and facilitates Police intervention through remote activation. We look forward to continue working with the SPF to enhance the capability of the Beacon.”
+
+Director of Operations, Senior Assistant Commissioner of Police Lian Ghim Hua said, “The Police Beacon aims to enhance the sense of public safety and provide members of the public with better accessibility to the Police, especially in times of emergency. It will further improve the Police’s operational effectiveness in deterring and responding to crime. The Police will continue to explore and adopt technology to enhance our capabilities to keep Singapore safe and secure.” 
+
+PUBLIC AFFAIRS DEPARTMENT
+SINGAPORE POLICE FORCE
+11 DECEMBER 2020 @ 7.00PM
+
+
+Front View of Police Beacon	Features
+A: Siren / Blinkers (remotely activated from POCC)
+
+B: CCTVs (provides real-time video footages to POCC) 
+
+C: Floodlights (remotely activated from POCC)
+
+D: Speakers (remotely activated from POCC) 
+
+E: Electronic Screen (displays crime prevention messages)
+
+F: Motion detection lights (lights up when a person approaches)
+
+G: Communications Button (provides direct access to a Police operator in POCC)
+
+G: AED Box
+
+About Home Team Science and Technology Agency (HTX)
+
+HTX is the world’s first Science and Technology agency that integrates a diverse range of scientific and engineering capabilities to innovate and deliver transformative and operationally-ready solutions for homeland security. As a statutory board of the Ministry of Home Affairs and integral to the Home Team, HTX works at the forefront of science and technology to empower Singapore’s frontline of security. Our shared mission is to amplify, augment and accelerate the Home Team’s advantage and secure Singapore as the safest place on planet earth.
+
+For more information, visit our website at htx.gov.sg",,
+[MEDIA RELEASE] USE OF IRIS AND FACIAL BIOMETRICS AS THE PRIMARY IDENTIFIERS FOR IMMIGRATION CLEARANCE AT ALL CHECKPOINTS,18-Jun-21,https://www.htx.gov.sg/news/media-release-use-of-iris-and-facial-biometrics-as-the-primary-identifiers-for-immigration-clearance-at-all-checkpoints,"The Immigration & Checkpoints Authority (ICA) has been progressively implementing more secure and efficient immigration clearance, in collaboration with the Home Team Science and Technology Agency (HTX). Since July 2020, all automated and manual immigration lanes and counters at the passenger halls of Singapore’s land, sea and air checkpoints have been equipped with iris and facial scanners (see Annex A for photos). Iris patterns and facial features will replace fingerprints as the primary biometric identifiers for immigration clearance. Fingerprints will be used as a secondary biometric identifier for travellers who are unsuccessful in their iris and facial scans. 
+
+Secure and Efficient Immigration Clearance 
+
+2. Since ICA implemented the enhanced-Immigration Automated Clearance System (eIACS) in 2006, fingerprints have been the primary biometric identifier for immigration clearance at our checkpoints. ICA started enrolling the iris images of Singapore Citizens and Permanent Residents from 1 January 2017, as iris patterns have a number of strengths as a biometric identifier compared to fingerprints.
+
+3. By using iris patterns in lieu of fingerprints for identification, issues with fingerprint verification, such as deterioration of fingerprints due to ageing, scarring or dryness, are avoided. This will enable travellers who currently have difficulty authenticating their identity using fingerprints to use the automated immigration clearance lanes. Second, iris patterns have a higher degree of variation and uniqueness than fingerprints, and are therefore more robust and reliable for use for identification purposes. An iris scan provides almost 250 feature points for matching, as compared to about 100 feature points for a fingerprint. In addition, specialised equipment is required to conduct the iris scan, which makes it less susceptible to misuse.
+
+4. To further strengthen the identification process, we will employ iris and facial scans concurrently. Facial recognition provides a second check of a person’s identity. The use of two biometric identifiers (i.e. iris patterns and facial features) will provide even more reliable authentication of the identity of travellers, and further strengthen ICA’s ability to safeguard Singapore’s borders. For travellers, the new immigration system allows for simultaneous and touch-free capture of these two biometrics, and offers more hygienic, more convenient and more efficient immigration clearance.  
+
+Who Can Use Iris and Facial Scans
+
+5. Singapore Citizens, Permanent Residents, long-term pass holders, as well as international travellers on our Frequent Traveller Programme (FTP) who have enrolled their iris and facial biometrics with ICA, are eligible for this new mode of clearance (see Annex B for the detailed list of eligible travellers).
+
+6. When these travellers approach the automated immigration lanes, they will be prompted to use their iris and facial biometrics for immigration clearance. If authentication via iris and facial biometrics is unsuccessful or if they have yet to enrol their iris and facial biometrics with ICA, such travellers will be prompted to clear immigration using their fingerprints. 
+
+7. Singapore Citizens, Permanent Residents and long-term pass holders who have yet to enrol their iris and facial biometrics with ICA and are keen to do so can seek the assistance of ICA officers at the checkpoints when they travel or when they visit the ICA Building for immigration facilities (e.g. renewal of passport or re-registration of identity cards). 
+
+8. Children who are below six years of age will not be eligible to use iris and facial scans for clearance. This is because their physical features and related biometrics are still developing and thus may not provide a reliable means of authentication. They will be enrolled at a later age.
+
+9. First-time foreign visitors to Singapore will need to enrol their iris, facial and fingerprint biometrics on arrival at the manual immigration counters. They will be able to use automated clearance when they depart Singapore. For their subsequent trips to Singapore, they can clear immigration using their iris and facial biometrics at the manual counters, if they are using the same passport as when their biometrics were enrolled. 
+
+Advisory to Travellers
+
+10. With the implementation of iris and facial scans at our checkpoints, travellers are advised not to wear sunglasses, caps, or other head gear that obstruct their iris and facial images when clearing immigration. They are also advised not to wear coloured or patterned contact lenses. Face masks must be removed during immigration clearance. 
+
+Transforming Immigration Clearance – Faster and More Secure
+
+11. The use of iris and facial scans is part of our plan to transform Singapore’s checkpoints, to provide travellers with more secure and efficient immigration clearance. We aim to realise our New Clearance Concept (NCC) at our checkpoints by 2022. 
+
+12. Beyond multi-modal biometric clearance, the NCC will eventually enable Singapore residents to clear immigration at our checkpoints without the need to present a passport. We also aim to enable the majority of foreign visitors, including first-time visitors, to clear immigration at the automated lanes on arrival, without the need for prior enrolment of their biometrics. More details on these developments will be provided at a later date. 
+
+IMMIGRATION & CHECKPOINTS AUTHORITY
+HOME TEAM SCIENCE & TECHNOLOGY AGENCY
+28 OCTOBER 2020
+
+
+Annex A
+
+Automated immigration lanes with iris and facial scanning at land, air and sea checkpoints
+
+Tuas Checkpoint
+
+ 
+
+Woodlands Checkpoint
+
+ 
+
+Changi Airport Terminal 4
+
+ 
+
+Tanah Merah Ferry Terminal
+
+ANNEX B
+
+Travellers who are eligible to
+use iris and facial scans for arrival and departure immigration clearance
+
+Singapore citizens who hold a K-series passport or have enrolled their iris and facial biometrics with ICA when they registered or re-registered for an Identity Card (IC) from 2017.
+Permanent residents who have enrolled their iris and facial biometrics with ICA when they registered or re-registered for an IC from 2017.
+Long-term pass holders (e.g. Student’s Pass holders) who have enrolled their iris and facial biometrics in past transactions with ICA from 2019.
+International travellers who have enrolled in the Frequent Traveller Programme using iris and facial biometrics.
+[Only for departure clearance for that trip] International travellers who are not in the Frequent Traveller Programme but have enrolled all three biometrics (fingerprint, iris and facial) at the manual counter upon their arrival in Singapore.
+Note: Children who are below six years of age will not be eligible to use iris and facial scans for clearance.",,
+[MEDIA RELEASE] SMART TRAINING TECHNOLOGY TO ENHANCE FIREARM TRAINING DELIVERY,18-Jun-21,https://www.htx.gov.sg/news/media-release-smart-training-technology-to-enhance-firearm-training-delivery,"The Singapore Police Force (SPF) and HTX have developed, and are currently testing out, a training system known as the Enhanced Live Firing Range System (ELFRAS) that is aimed at enhancing firearm training delivery. The system uses multiple sensors and analytics to improve the shooting performance of officers undergoing firearm training. This is also in line with the Home Team’s (HT) drive to better leverage technology to enhance learning outcomes for HT officers.
+
+
+
+2          The sensors capture human factors such as weapon handling, breathing, shooting posture, gaze fixation and visual alignment. An embedded Advance Performance Enhancement & Analysis Range System (APEARS) software analyses data collected through these sensors and provides real time recommendations to help improve the officer’s subsequent shots.
+
+
+
+3          The features of the sensors are as follow:
+
+a. Weapon Handling.  A sensor attached to the weapon tracks the movement of the weapon before, during and after the trigger is pulled. It also identifies trigger pulling techniques applied by the officer.
+
+b. Breathing. A sensor, fixed at the shooting lane, tracks and shows whether the officer’s breathing technique affects  the movement of his weapon while firing.
+
+c. Gaze Fixation. A sensor in the form of a pair of spectacles, tracks the officer’s eyes during firing, including whether the officer focuses on his aiming or blinks his eyes while firing.
+
+d. Shooting Posture.A body posture camera, fixed at the shooting lane, captures the officer’s body movement and compares it against the recommended shooting postures.
+
+ 
+
+ 
+
+4.         The Human Factors and Simulation Centre of Expertise (HFS CoE) of HTX worked with SPF to identify the full spectrum of performance-related human factors indices and to define the engineering design to instrument the shooting lane with these sensors. Ying Meng Fai, Acting Director of the HFS CoE said, “The system provides information on the shots and real-time analysis of human factor indices such as weapon handling, breathing, shooting posture, and visual alignment. This way, timely and targeted feedback can be provided to the officers to improve their proficiency.”
+
+
+
+5          The one-of-its-kind ELFRAS system also features a target sensor system that performs automated scoring, captures and displays the location where each shot lands on the target board in real time. This information, together with recommendations generated by the APEARS software, is presented on display panels placed beside and above the officer, to provide both officer and trainer immediate insights on the shooting performance. This allows the trainer to provide comprehensive and timely guidance to the officer. The team has also designed an intuitive ‘one glance’ user interface for ELFRAS which enables the trainer and trainee to rapidly visualise and mitigate critical performance gaps.
+
+
+
+6          Beyond this, the ELFRAS tactically deploys sensors to pick up minute physiological human factors, which could affect the accuracy of shots. Dr Saravana Kumar, Deputy Director of HFS CoE and the Project Manager of ELFRAS said, “A sensor attached to the weapon measures if the officer is handling his weapon correctly for maximum accuracy. The system also has a breathing sensor to inform the officer of any body- or breathing-related movements as well as posture detection cameras to determine if the correct firing posture is adopted by the officer.”
+
+
+
+7          Superintendent Joseph Yoong, Head of the Instructional Technology Division of the SPF Training and Capability Development Department, and member of the ELFRAS project team, said, “As part of our efforts to be a learning force with world class training, the Singapore Police Force leverages technology, such as ELFRAS during firearms training, to enhance our training delivery and effectiveness, so as to better prepare our officers for their work at the frontline.”
+
+
+
+8          Currently, the project is undergoing a trial at the Home Team Academy live firing range. The trial which started in June 2020 is expected to end in February 2021. The trial is conducted with selected officers undergoing pistol and revolver training. In addition to soliciting qualitative feedback from officers and trainers, the team is also analysing the shooting performance of officers in the test group vis-a-vis officers in the control group. If the trial results are favourable, ELFRAS could be used by frontline officers in other Home Team departments.
+
+ 
+
+PUBLIC AFFAIRS DEPARTMENT
+
+SINGAPORE POLICE FORCE & HTX (HOME TEAM SCIENCE AND TECHNOLOGY AGENCY)
+
+25 OCTOBER 2020 @ 6.00 PM",,
+[MEDIA RELEASE] POLICE COAST GUARD’S TACTICAL BOAT HANDLING AND FIRING SIMULATOR,18-Jun-21,https://www.htx.gov.sg/news/media-release-police-coast-guard-s-tactical-boat-handling-and-firing-simulator,"The Singapore Police Force (SPF) has commissioned a new Tactical Boat Handling and Firing Simulator (TBHFS) in its Police Coast Guard’s (PCG) Integrated Tactical Training Centre located in the PCG Headquarters. The TBHFS is developed collaboratively with HTX (Home Team Science and Technology Agency).
+
+The simulator is the first of its kind  in Singapore in enabling highly realistic vessel simulation at speeds exceeding 50 knots which is integrated with an advanced eye-tracking system in addition to weapon capabilities. The simulator uses an advanced physics engine and customisable hydrodynamic modelling, derived from and validated against recorded vessel performance data. It duplicates how high-speed vessels behave in the real world when affected by factors such as wave movements or impacts with other crafts and floating objects, in a range of sea states with different speeds.
+
+The PT Boat Simulator (Photo: HTX)
+
+The key features of the simulator are as follows:
+
+a. Customised Simulator.  Four customised simulators that resemble PCG’s high-speed Patrol Interdiction Boat and high-speed interceptor boats (2nd Generation PK boats).
+
+b. Instructor Operating Station. Allow the trainers to have the flexibility to control the training scenarios, conditions and environment. It also gives trainers a bird’s eye view of the training scenario and activities via the eye tracker and CCTVs. For training realism, a steering console has been installed for trainers to control the target boat during the training scenario. Real time recording of all training scenarios including the eye tracker, CCTVs and communication between trainers and trainees is also available for review after the training has ended.
+
+c. Briefing & Debriefing Facilities. Allow the trainers to replay the full training scenario for review with the trainees after every training.
+
+d. Multiple Training Scenarios. The TBHFS can simulate a myriad of scenarios, conditions and environment to support training in general and tactical boat handling skills. It can help PCG officers hone their skills in watch-keeping, navigation, berthing and maritime interdiction in a safe environment before their actual sea phrase training.
+
+e. Eye Tracker. The Eye Tracker detects the eye movement of the trainees to allow trainers to analyse the trainees’ visual focus during stressful scenarios such as high-speed pursuit. This will allow the trainers to provide targeted feedback to the individual trainees so that they are aware of the areas they can improve on.
+
+Senior Assistant Commissioner of Police Cheang Keng Keong, Commander of Police Coast Guard said, “The new simulators will allow PCG officers to practise high-risk manoeuvres and experience different scenarios in a safe and controlled environment, which minimises the risks of injuries and accidents. Officers will also be able to train repeatedly to acquire the high standard of competency before embarking on live training out at sea.”
+
+To meet the training needs of tactical boat operations, HTX had to consider several factors in the design review, implementation and the commissioning of the simulator. Bernard Phang, Director of Policing Programme Management Centre in HTX said, “Harnessing technology in the training of officers from the Police Coast Guard is the way forward. In developing the TBHFS, we have been able to enhance the training of police officers exponentially in different areas without having to be subjected to the climate and currents of any given day of training. The multiple sensors allow the trainer to analyse each trainee’s performance and help them to improve. ”
+
+The PK Boat Simulator (Photo: SPF)
+",,
+[FEATURED NEWS] GROOMING FUTURE LEADERS IN SECURITY SCIENCE AND TECH,18-Jun-21,https://www.htx.gov.sg/news/featured-news-grooming-future-leaders-in-security-science-and-tech,"You are hired for one job and what you do is to keep the pedal to the metal, working hard to get better at it, right?
+
+Not if you were hired at HTX and got selected to join its S&T Associates Programme.
+
+Associates at HTX are given the chance to explore the latest cutting-edge technologies, get hands-on exposure in diverse security domains, and lead projects to build up their expertise.
+
+Said HTX’s Human Resource Director Lim Tze Min, “The young graduates who apply to HTX want to apply the STEM (Science, Technology, Engineering and Mathematics) skills they studied in school, to the worthwhile mission of making life safer for Singaporeans. We hope to fan this passion and grow them to become leaders and tech visionaries who can shape the future of how science and technology can exponentially impact Singapore’s safety and security.”
+
+Tailored for STEM graduates with less than three years of working experience, the possible fields which the associates can dive into are multifarious.
+
+These include biometrics and profiling; cybersecurity; chemical, biological, radiological, nuclear and explosives; digital and information forensics; marine systems; robotics, automation and unmanned systems; sense-making and surveillance; and more.
+
+Associates will take on challenging projects in these domains under the guidance of specialists and lead one greenfield project on their own, to build up their portfolios. They will also have access to various forms of training, such as technical courses and overseas learning trips.
+
+From Ideas to Reality
+
+And it’s not just theory.
+
+The Associates get to see how their ideas work on the ground, in everyday homeland security operations, which is critical to their understanding of user perspective.
+
+They would have the opportunity to speak to or observe officers from the Singapore Police Force, Singapore Civil Defence Force, Central Narcotics Bureau, Immigration and Checkpoints Authority (ICA), and other Singapore security agencies.
+
+Said one associate, Clara Ho, a Data Scientist, “Being in HTX’s Data Science and AI Centre of Expertise (DSAI CoE) has exposed me to problems that our Home Team Departments face, some of which are potentially solvable with the use of AI.” She added that figuring out the best AI solutions and techniques and deepening her knowledge in the field is a key highlight for her at DSAI.
+
+Clara at work (Photo: HTX)
+
+At HTX, she also had the opportunity to work on another project with the Sense-making & Surveillance CoE, which involved applying Computer Vision techniques to perform crowd estimation.
+
+“This allows agencies to be informed when crowded situations arise, which may impact the health and safety of fellow Singaporeans during this COVID-19 crisis. It was really fulfilling as not only did my work have positive impact on society, it also broadened my exposure,” she said.
+
+Likewise, another Associate, Ng Hui Lian from HTX’s Biometrics & Profiling (B&P) CoE, finds her work interesting as it allows her to collaborate with counterparts from the ICA and vendors to develop innovative solutions for frontline operations at the checkpoints.
+
+Ng Hui Lian (Photo: HTX)
+
+This includes improving automated fingerprint scanning, to make it more convenient and quicker for travellers to pass through the checkpoints without compromising on security.
+
+Said Hui Lian, “Fingerprinting is a widely used biometric. There are multiple factors that can affect the quality of latent print, such as skin condition, humidity, and pressure. That’s why we are exploring the use of contactless fingerprinting as an alternate fingerprint acquisition mode, in addition to the increasing awareness of hygiene during COVID-19.”
+
+A Learning Incubator
+
+Supported by a nurturing environment, the associates are encouraged to learn all that they can – whether it be through formal courses, industry exposure, or speaking to their more experienced colleagues.
+
+For instance, while Hui Lian studied Life Sciences with a minor in Forensic Science at the National University of Singapore, she had to learn about coding and other technicalities from her senior colleagues and supervisor.
+
+“I truly appreciate the guidance from my colleagues and supervisors as I learn on the job. At HTX, no question is ever too small or invalid,” said Hui Lian.
+
+Hui Lian (second from left) and her B&P colleagues at the SPF200 Exhibition for a team bonding outing (Photo: Ng Hui Lian)
+
+Clara agreed. Having studied computer engineering at the Singapore University of Technology and Design, she had to consult her colleagues when she was assigned to work on a Natural Language Processing project with the Singapore Prison Service.
+
+Clara said, “The open, friendly culture at HTX gives me the autonomy to do my work. It allows me to determine my own pace for development and sharpening of skills.”
+
+Clara (extreme right, back row) with her DSAI colleagues at a volunteering retreat (Photo: Clara Ho)
+
+Such is the culture of support and opportunity here that will encourage our young officers to independently develop their own passions and skillsets, and rise up to their roles in the future leadership.
+
+To learn more about our young Associates’ experiences at the different HTX Centres of Expertise, read the stories of Daphne (Cybersecurity), Matthew (CBRNE), Ying Qi (Human Factors & Simulation), Yong Wee (Trials & Experimentation), and Zan Xin (CBRNE).",,
+[FEATURED NEWS] HTX’S FIRST LONG-DISTANCE BVLOS FLIGHTS A MILESTONE DEVELOPMENT FOR HOME TEAM OPS,18-Jun-21,https://www.htx.gov.sg/news/featured-news-htx-s-first-long-distance-bvlos-flights-a-milestone-development-for-home-team-ops,"With the successful implementation of HTX’s first long-distance Beyond Visual Line of Sight (BVLOS) flights for Unmanned Aerial Vehicles (UAVs), the Home Team is now able to further harness and apply this capability in areas such as saving lives and protecting properties, and enhancing public safety and security.
+
+During the COVID-19 Circuit Breaker period, HTX augmented the Singapore Police Force’s resources on the ground by operating these BVLOS flights for patrolling operations around the industrial areas at Tuas South to ensure security. These autonomous flights enabled long distance and large area patrols, requiring only a very lean team to operate remotely.
+
+Potential and Expanded Use of BVLOS UAV Flights
+
+BVLOS UAVs are particularly useful to the Home Team for the conduct of patrols and security operations in areas which may be inaccessible or where situations are too risky for manual operations. BVLOS UAVs can also be used as a first responder to provide a situational picture of an incident site, such as a big-scale or high-security event with large crowds, and for sustained and routine patrols. As videos from the UAVs can be streamed to the Police Operations Command Centre, the Police can rapidly view and assess the situation before deciding on the appropriate resources to send to the ground.
+
+Other situations where BVLOS UAVs can play a critical role include the detection of hazardous materials, the monitoring of fire scenes, and the delivery of essential supplies, which can include Automated External Defibrillators (AED) during critical missions like building collapses to help achieve a shorter response time for life-threatening cardiac arrest cases. The ability to commission BVLOS flights will increase the efficiency of Home Team operations and empower frontline officers to focus on higher-order tasks.
+
+Mr K Shanmugam, Minister for Home Affairs and Minister for Law, viewed a BVLOS UAV flight demonstration at the Tuas View Fire Station today. He said: “This development is a key milestone in the Home Team’s use of cutting-edge technologies to transform the way we operate. HTX and the Home Team Departments must continue to innovate and find ways to harness technology to enhance the Home Team’s effectiveness in keeping Singapore safe and secure.”
+
+Minister K. Shanmugam (in pink shirt) listening to a presentation on the drone features and capabilities during his visit to Tuas View Fire Station on 16 September 2020 (Photo: HTX)
+
+[From left] SCDF Commissioner Eric Yap, HTX Chief Executive Chan Tsan, Minister K. Shanmugam, Commissioner of Police Hoong Wee Teck, ST Engineering Chairman Kwa Chong Seng at the Tuas View Fire Station rooftop to witness the take-off of a BVLOS flight (Photo: HTX)
+
+(Photo: HTX)
+
+HTX is currently working with various Home Team departments to design and customise effective BVLOS UAV solutions to meet their specific needs and requirements.
+
+Senior Assistant Commissioner of Police (SAC) How Kwang Hwee, Director of Operations Department, said, “The Singapore Police Force (SPF) continues to work with HTX and industry partners to embrace new technologies to enhance our operational capabilities. The development of BVLOS drones is the next phase in SPF’s UAV operations. Recently, BVLOS drones have been successfully deployed to complement officers on the ground in various operations.”
+
+Innovative Tech Enabling BVLOS UAV Flights
+
+HTX’s Robotics, Automation & Unmanned Systems (RAUS) Centre of Expertise (CoE) worked with ST Engineering Aerospace to develop the Vertical Take-Off and Landing (VTOL) hexacopter drone that was used to conduct the BVLOS flight.
+
+Autonomously launch and recover
+
+The hexacopter drone uses a Drone Box concept, which allows it to autonomously launch and recover. “The Drone Box has a robotic automation system which can rapidly change out the depleted battery of the hexacopter drone and prepare it for its next mission”, said Director of HTX’s RAUS CoE, Cheng Wee Kiang, “Within the Drone Box, there is also a batch of drone batteries that are being charged and ready to be installed. This feature allows for a quick turnaround during operations without the need for manual intervention.”
+
+Autonomously swap payloads
+
+The automated payload swap feature of the Drone Box outfits the drone with the most effective payload for each specific operation. Such payload could comprise cameras, HazMat detectors or mechanisms for the delivery of items such as AEDs. “The automated payload swap means that the payloads can be adapted to different missions and situations swiftly. Since the mundane and time-consuming tasks are taken care of by automation, it will tremendously improve the agility and efficiency of the Home Team’s operations”, Mr Cheng added.
+
+Fly longer distances in a shorter time
+
+The operating concept of the Drone Box also enables the hexacopter drone to fly longer distances over sub-urban areas. According to Mr Cheng, the VTOL hexacopter drone can achieve a flight distance of a few kilometres in about 30 minutes, and also cover more areas within a shorter time.
+
+The HTX RAUS team involved in the development of this advanced drone capability: (from left) Vanessia Choo, Low Hsien Ming, Cheng Wee Kiang, Chua Song Heng, Looi Xinglun (Photo: HTX)",,
+[FEATURED NEWS] CATCHING CRIMINALS IN THE INTERNET AGE,18-Jun-21,https://www.htx.gov.sg/news/featured-news-catching-criminals-in-the-internet-age,"The digital technology boom that has transformed our lives in the past two decades has also reshaped how criminal investigations are carried out. For example, the ubiquity of smartphones has made them invaluable for both criminals and the police, and today up to 97% of criminal investigations rely on data from smartphones as a critical source of evidence.
+
+Police departments around the world have been adding digital technologies to their investigative toolkits, and Singapore is no exception. HTX’s Digital and Information Forensics Centre of Expertise (DIF CoE) has been a leader in deploying cutting-edge technologies in both on-scene and laboratory digital forensics work to enable investigators to recover evidence from crime scenes and rapidly obtain actionable leads to apprehend the criminals.
+
+The range of crimes that can be solved with digital forensics is large and grows larger each day.  James Lan, Acting Deputy Director at DIF CoE, has used digital forensics to solve all sorts of cases including love scams and illegal moneylending, using data extracted from phones, laptops, and other gadgets: “We can gather evidence from SMS and WhatsApp text messages, emails, smart devices like Google Home, and even GPS co-ordinates can help us to ascertain if the subject was where he claimed he was.”
+
+Senior Forensics Examiner Mohamad Ridzuan using the Chip-Off machine to recover data from damaged mobile devices. Looking on are Acting Deputy Director James Lan (extreme left) and his team-mates from the Digital & Information Forensics forward deployed team at HTX (Photo: HTX)
+
+New Tools for the Digital Age
+
+The scientists and engineers of DIF CoE have developed a range of new tools for the recovery and processing of digital evidence. These include the Digital Forensic Kiosk which investigators -- including those without technical backgrounds -- can use to easily extract and analyse evidence from smartphones and other digital devices. Another tool being developed by the CoE is the Digital Evidence Search Tool (DIGEST), which investigators can use to automatically process large volumes of digital evidence, freeing up their time to concentrate on other aspects of their investigations.
+
+Tools like DIGEST and the Digital Forensic Kiosk are important as HTX’s forensic examiners have to process thousands of electronic devices each year -- a number which will keep increasing -- with each device containing gigabytes or even terabytes of data.
+
+As Lim Tuan Liang, the Director of DIF CoE, observes, “the big challenge is the exponential growth in the way that people are using digital devices and services,” and HTX’s scientists and engineers are continually exploring the best technological solutions to obtain “the most actionable insights” from this ever-growing mountain of data.
+
+Senior Forensics Examiner Khairul Anwar Bin Ishak using the Digital Forensics Kiosk to extract and examine data from the mobile phone (Photo: HTX)
+
+Keeping Up with the Latest Technologies
+
+Apart from the large and growing quantity of data, HTX’s experts also have to keep themselves updated on the latest developments in hardware development, so that they can equip Singapore’s crime fighters with the capability to extract evidence from the ever-growing range of new electronic devices.
+
+And it is not just physical gadgets. The rise of the Cloud means that investigators have to identify and comb through criminals’ cloud usage as well. As Tuan Liang notes, “In the past, when we arrested someone and seized their devices, we thought everything was there. But that’s not true anymore. If they are using cloud services, they might not store anything on these devices.”
+
+This never-ending need to keep up with technology means that the digital transformation of crime investigation will be a continual process, and as Tuan Liang points out, “the traditional model of investigation is going to be overturned.”
+
+One example of the challenge posed by technological change comes from Mohamad Ridzuan, a Senior Forensics Examiner at DIF CoE: “New technologies are emerging all the time. With better encryption, everything is increasingly more secure, and it is a growing challenge to extract data.” 
+
+Close-up of Ridzuan performing the removal of storage chip from the logic board (Photo: HTX)
+
+Passion for Technology and Justice
+
+Like many of the other scientists and engineers at HTX, the DIF CoE director had a childhood passion for technology. His journey began when an uncle gave him an Apple ][ computer, which allowed him to learn how to code in BASIC. From that early beginning he moved on “to future generations of computers, and eventually to the mobile devices we have today, which are more powerful than anything we had then.”
+
+Tuan Liang also has a passion for justice, and he joined the Singapore Police Force after graduating from university. He combined his passions for justice and technology in the field of digital forensics, and prior to leading DIF CoE, he spent almost a decade as the SPF’s Head of Technology Crime Forensic.
+
+Lim Tuan Liang (left) showing then President of Singapore, Tony Tan Keng Yam, the mobile forensic tool, on 27 April 2016 (Photo: HTX)
+
+Today, the COVID-19 pandemic -- in particular, the difficulty of working from home without access to the lab -- has helped to accelerate one of the director’s long-term projects, which is to enable HTX officers to “work anywhere at any time.” As he stated in a recent interview, “in three years’ time we hopefully will have moved 80% to 90% into a cloud-based environment.”
+
+This future move to the Cloud will empower officers to collect, process and analyse evidence at any location without having to return to or rely on the lab, hence saving precious time when solving crimes. These and other innovations in Digital and Information Forensics will continue to shape the Home Team’s digital transformation.
+
+Watch this video learn more about how HTX’s DIF CoE and Forensics CoE are empowering our frontlines in crime-solving.
+
+(Source: HTX)",,
+[MEDIA RELEASE] APPOINTMENT OF NEW MEMBERS TO HTX BOARD,18-Jun-21,https://www.htx.gov.sg/news/media-release-appointment-of-new-members-to-htx-board,"[Media Release]
+ 
+
+APPOINTMENT OF NEW MEMBERS TO HTX BOARD
+
+The Ministry of Home Affairs (MHA) will appoint three leaders, two from the industry and one from the Home Team, to the Home Team Science and Technology Agency (HTX) Board of Directors. 
+
+They are:
+
+a. Mr Tham Kok Leong, Partner (Head of Technology & Corporate Intellectual Property Practice) at Allen & Gledhill LLP. He will join the HTX Board from 1 September 2020
+
+b. Ms Chew Seow-Chien, Partner (Head of Southeast Asia Financial Services Practice) at Bain & Company. She will join the HTX Board from 1 September 2020.
+
+c. Ms Shie Yong Lee, Commissioner of Prisons (Designate). She will join the HTX Board from 28 September 2020.
+
+
+MHA and HTX would like to thank Mr Desmond Chin, Commissioner of Prisons, for his service on the HTX Board. Mr Chin will step down from the HTX Board on 28 September 2020 when he retires from the Singapore Prison Service.
+
+
+HTX, a statutory board under MHA, was established on 1 December 2019 to develop science and technology capabilities that will enable Home Team departments to better address the emerging threats and evolving challenges on the security landscape. HTX aims to be the force multiplier for the Home Team.
+
+
+The HTX board is chaired by Mr Chew Hock Yong, who is also Permanent Secretary (Home Affairs Development) in the Ministry of Home Affairs.
+
+
+MINISTRY OF HOME AFFAIRS
+1 SEPTEMBER 2020",,
+[FEATURED NEWS] GREAT EXPECTATIONS OF AN S&T FUTURE AT HTX,18-Jun-21,https://www.htx.gov.sg/news/featured-news-great-expectations-of-an-s-t-future-at-htx,"For three young men, it is a dream come true to receive the Home Team Scholarships this year. Peter Dumont, Choo Ze Xian, and Li Kangli have been fascinated with Science and Tech (S&T) for a long time, and look forward to being equipped with the knowledge and skills to make a real difference to lives. Among 14 scholars who received their awards on 20 August 2020, these three students will be joining HTX upon graduation from university.
+
+Peter will be pursuing his studies in Microbial Biology at the University of California, Berkeley. Ze Xian and Kangli will both be studying Computer Science. Kangli will pursue his studies at the National University of Singapore, while Ze Xian is waiting for confirmation of his university placement.
+
+All three were immensely grateful for the scholarship that will enable them to pursue their passions in S&T. Peter and Ze Xian were awarded the SGS MHA Merit Scholarship, and Kangli received the Home Team Local Study Award.
+
+Read more about the Home Team Scholarships here.
+
+Peter Dumont (Photo: Home Team News)
+
+Choo Ze Xian (Photo: Home Team News)
+
+Li Kangli (Photo: Home Team News)
+
+ 
+
+We caught up with the boys to hear their thoughts on the award and HTX.
+
+ 
+
+Congratulations on your awards! Please share with us how you feel about the scholarship.
+
+Peter: The scholarship has opened the door to many opportunities, and I’m very grateful to be attached to an agency that I’m genuinely looking forward to begin a career at. I’m excited to help grow HTX!
+
+Ze Xian: It is truly a once-in-a-lifetime experience. While I’m ecstatic to have been chosen, I also understand that it is a precious symbol of responsibility and duty of giving back to Singapore.
+
+Kangli: I’m very honoured to receive the scholarship. Having taken the polytechnic instead of junior college route, which is something out of the norm, I hope that my example can encourage people to recognise that if polytechnic students work hard enough, they too can achieve success.
+
+ 
+
+What sparked your interest in S&T? What attracted you to join HTX?
+
+Peter: I used to read a lot of mystery novels, such as those by Agatha Christie, and had a little taste of investigative work in school through biology. I also had the opportunity to do a course overseas at Princeton University on epidemiology and learnt how the spread of diseases can be traced to different patients. At HTX, I would be able to marry my interest in police work and biology research. I wanted a career path that had a lot more meaning while being able to see the fruits of my work on the ground.
+
+Ze Xian: Since I was in Year 3 of secondary school, I started dabbling in various projects that could have real-life applications. For instance, while I was serving the nation, I created a sentiment analyser with the aim of reading a chunk of text to tell whether the writer was happy or sad. At HTX, I again saw this real-life application when news broke recently that HTX was involved in the screening of COVID-19 at Singapore’s borders. I wanted to be part of this up and coming agency tasked with the mandate to tackle new, growing problems.
+
+Kangli: I’ve always loved watching crime-solving series like Sherlock Holmes and Forensic Heroes where they examine trails left behind by criminals to crack the case. My passion for Digital Forensics was sparked by my National Service stint with HTX’s Digital and Information Forensics team. I saw first-hand how a forensics examiner worked, and was exposed to advanced techniques (such as chip-off forensics) to extract data from non-working devices. The work was so interesting and exclusive, I knew I had to return!
+
+ 
+
+What do you hope to achieve in the field of S&T?
+
+Peter: I hope to find a niche area in Microbial Biology that is useful in growing the capabilities of HTX. As I’ll be studying a lot about viruses and pathogens, I could probably branch off into a related topic like immunology. I saw that HTX was quite heavily mobilised for fast-response COVID-19 measures. It will definitely be useful if more people could contribute to such an effort in future, should another pandemic strike.
+
+Ze Xian: To apply S&T meaningfully, I hope to utilise technology to touch the lives of every Singaporean. This can be through the development of advanced systems or applications that will boost the effectiveness or security of day-to-day processes, impacting the everyday lives of Singaporeans.
+
+Kangli: As HTX’s digital forensics team continues to ramp up its capabilities by tapping on emerging tech, I want to be a subject matter expert in digital forensics. I hope to develop useful tools to solve crimes easily and legally.",,
+[FEATURED NEWS] KEEPING SINGAPORE SAFE AGAINST ROGUE DRONES,18-Jun-21,https://www.htx.gov.sg/news/featured-news-keeping-singapore-safe-against-rogue-drones,"These days, drones are an omnipresent sight in the skies. From delivering food, to supporting Police operations during COVID-19, the proliferation of unmanned aerial vehicles (UAVs) has contributed to many use cases across a spectrum of industries. But when drones land in the hands of the wrong persons, it can be a serious threat to public safety. Take for instance, on 18 June 2019, several unauthorised drones intruded into Singapore’s restricted airspace and disrupted operations for about ten hours. 38 flights were delayed and one of the runways had to be closed intermittently.
+
+Rogue drones have not just caused near-accidents; they have been used to courier drugs and contrabands to prisoners and even used in assassination attempts or incidents around the world. Not only do illegal drone flights cause financial loss, they can be potentially dangerous to lives and properties.
+
+So what can be done to detect and counter these rogue drones?
+
+One innovative solution is the XENTINEL Mobile Response Vehicle – a purpose-built anti-drone mobile response vehicle.
+
+A light and nimble vehicle platform, the XENTINEL is equipped with capabilities to detect drones at good standoff distance, thereby allowing officers to have adequate time for effective interdiction. The vehicle only requires one officer to operate it and is designed to be ready within minutes to be swiftly deployed.  This is a quantum leap from the current method of countering drones.
+
+(Photo: HTX)
+
+“The challenge given to us was how could we perform counter-drone operations more effectively with just one personnel? Using a combination of cutting-edge technologies, we developed a mobile and rapid deployable system that was capable of countering rogue drones effectively. Using state-of-the art technology, the systems on board the vehicle can detect and interdict drones at far greater range than a human operator. The vehicle is easy-to-operate and lean-on-manpower design. In every sense, the XENTINEL is a force multiplier to our counter-drone capabilities,” explains Eric Chua, Director of Land Systems Centre of Expertise (CoE) at HTX and co-Project Team Leader of the XENTINEL project.
+
+The team from Land Systems CoE collaborated with the Robotics, Automation, and Unmanned Systems (RAUS) CoE, Singapore Police Force (SPF), DSO, and ST Engineering to conceptualise, design and integrate the required sensors into the vehicle platform.
+
+Key Features of XENTINEL:
+
+Equipped with different sensors to detect presence of drone signals and disrupt rogue drone operations;
+Equipped with cameras to provide visual confirmation of the drones;
+Intuitive user interface;
+Modular subsystems allowing for easy maintenance.
+
+(Photo: HTX)
+
+Director of RAUS CoE and Co-Project Team Leader, Cheng Wee Kiang says that this project cements Singapore’s standing and commitment to safety and security using science and technology. “The development of the XENTINEL sets a new benchmark for delivering full spectrum counter drone capabilities to the Home Team. The capabilities contribute significantly to addressing the evolving security needs. This original capability has proven to be superior in application, as the development and deployment is meticulously customised and optimised for Singapore’s unique operating landscape.”
+
+Some of the project members with XENTINEL (Photo: HTX)
+
+For the excellent teamwork, dedication to duty, operational efficiency, and integration of innovative technologies, the Xentinel project team was recently presented with the Minister for Home Affairs National Day Award.
+
+In the next few months, the XENTINEL will be qualified for roadworthiness and ready for trials with the SPF.",,
+[FEATURED NEWS] CONGRATULATIONS TO OUR NATIONAL DAY AWARDS RECIPIENTS!,18-Jun-21,https://www.htx.gov.sg/news/featured-news-congratulations-to-our-national-day-awards-recipients!,"This year, 19 HTX officers received the National Day Awards 2020. Immigration & Checkpoints Programme Management Centre (ICPMC) Director Tan Sor Hoon, was presented with the Public Administration Medal (Silver) for her outstanding efficiency, competence, and industry. She was among eight highly experienced Home Team Silver Medallists this year who have made many significant contributions to the public service and homeland security over the years.
+
+ 
+
+
+Public Administration Medal (Silver) Recipient – Tan Sor Hoon, Director, ICPMC
+
+For Sor Hoon, leveraging emerging technologies to create future-ready checkpoints that are efficient, secure, integrated, and smart lies at the core of her current work at HTX’s ICPMC. “Our work in biometrics brings us one step closer to the Immigration & Checkpoints Authority’s (ICA) vision of an efficient and hassle-free immigration clearance experience,” said Sor Hoon.
+
+She felt fortunate to have a team of committed officers with positive attitudes, who can deliver despite being new and overcome the challenges to support the large portfolio for ICA. This portfolio, she said, comprises close to 100 development projects as well as Infrastructure and ICT equipment located at ICA HQ, more than 30 immigration checkpoints island-wide, and more than 40 overseas missions in various countries and strategic partners like Institutes of Higher Learning and hospitals.
+
+On her Public Administration Medal (Silver) award, Sor Hoon said, “This award may have my name on it, but in truth it belongs to everybody who has supported or worked with me to make it a reality. The award is a reminder of the hard work my team and I have put in. It motivates us to achieve more success in the future.”
+
+Read more about Sor Hoon and her work at ICPMC.
+
+ 
+
+
+Two other HTX officers were awarded the National Day Awards (Efficiency Medal). They are Stephen Tay Chee Meng and Kwa Hee Boon.
+
+In addition, 16 HTX officers received the Long Service Medal for having served at least 25 years in the public service.
+
+Stephen is Officer-in-Charge (Photo & Technical Aid) at HTX’s Forensics Centre of Expertise, and Hee Boon is the Head, Northern Operation & Sustainment, Patrol Boats, Marine Systems, at HTX’s Platform Systems Sustainment Centre. The National Day Awards recognise public servants’ various forms of merit and service to Singapore in their respective areas of work.
+
+ 
+
+Efficiency Medal Recipients
+
+Stephen (3rd from left) at the Home Team Festival 2019 (Photo: Stephen Tay)
+
+Stephen is in charge of the Photo and Tech Aid team in Forensics Division of the Criminal Investigation Department where he manages all photographic and technical aid services for the Singapore Police Force and external agencies, and supervises his officers’ work in the procurement of photographic equipment and consumables.
+
+He is also in charge of numerous projects such as implementing Radix 2, procuring the Facial Recognition System, and working on a Proof-of-Concept on generating near-real time leads.
+
+(Photo: Kwa Hwee Boon)
+
+Hee Boon is the Officer-in-Charge of the Marine Workshop in Police Coast Guard (PCG) Gul Regional Base, managing a group of 15 technicians and 10 contractors to maintain 24 PCG patrol boats.
+
+His job requires him to plan and execute the maintenance programme for these 24 PCG patrol boats ensuring operational availability to meet PCG operational needs for Gul Regional Base.
+
+ 
+
+Congratulations again to all our winners!",,
+[FEATURED NEWS] MAPPING THE BIG PICTURE,18-Jun-21,https://www.htx.gov.sg/news/featured-news-mapping-the-big-picture,"Picture this – first, one system that contains over 800 disparate data sets e.g., topographical maps, building locations, navigation routes, street views, terrains, locations of Neighbourhood Police Centres and police cameras. Second, all these geospatial data from diverse sources ‘stacked’ on top of one another on one electronic platform. Third, users, in this case, the Police can look at this to get the ‘big picture’, and immediately identify crime hot spots, map crimes, deploy officers for emergency calls, and make data-driven decisions.
+
+This is the Enterprise GIS (eGIS) system that presents geospatial data from diverse sources in an integrated manner to allow the Police to have better situational awareness and effect a quick and informed response. With thousands of real-time GPS data being ingested into the eGIS system every minute, Police get a real-time view of events as they happen and plan for resources, keeping the public and officers safe.
+
+Said HTX Assistant Chief Executive Tay Yeow Koon, “With a quantum increase in data and information over the last few years, the Police required a system to help them see the data in a unified manner. The eGIS enables police officers to be ‘smarter’, react faster, and make data-driven decisions to prevent, deter and detect crimes”.
+
+The eGIS platform also enables interconnectivity between systems, helps to develop new capabilities like blue force tracking, provides a visual context to location data and brings insights to the users with geospatial analysis and dashboards. Today, the eGIS exists as a map visualisation in Police command & control systems and other backend operational applications.
+
+This is a collaborative effort of SPF and HTX. The team received the Esri Special Achievement in GIS Award in July 2020, for its innovative application of mapping and analytics technology. The team is the only one from Singapore to win this international award in 2020 out of over 300,000 candidates globally.
+
+“The eGIS is one of the enterprise-wide solutions that HTX worked hand-in-gloves with SPF as an integrated joint ops-tech team to conceptualise, plan and implement capabilities to achieve SPF’s Capability Vision 2025 to safeguard Singapore. This project has also opened up opportunities to introduce the upcoming map hackathon (or internally known as SPF Mapathon) to proliferate the use of GIS among SPF officers to solve real-life problems at work”, explains Bernard Phang, Director/Policing Programme Management Centre (PPMC).
+
+eGIS Project team
+
+Tay Yeow Koon - Assistant Chief Executive (Programmes)/HTX
+
+Loke Wai Yew - Director Ops-Tech Department/SPF
+
+Bernard Phang – Director, Policing Programme Management Centre/HTX
+
+Edwin Lim – Deputy Director, Ops Department/SPF
+
+Kua Choon Jin – Deputy Director/SPF
+
+Benson Lim - Lead Engineer, Geo-spatial Technologies/HTX
+
+Chia Hong Kai - Product Manager, Ops-Tech Department/SPF
+
+Meet Benson Lim, Sarah Lee, and Muhd Fahmi - HTX’s geospatial specialists from the Joint Capabilities Programme Centre (JCPMC). The three of them are involved in the end-to-end solution of the SPF eGIS system. From planning, consulting, maintaining the platform and using GIS software to analyse and interpret the information. Benson who is a Lead Engineer/JCPMC, also oversees 3D GIS, indoor location intelligence; Sarah is in charge of geospatial data and analysis while Muhd Fahmi handles mobile GIS and infrastructure.
+
+“The eGIS is just not a computer application; it is an ecosystem of platforms and people. The platforms present the available data and information visually but we still need the people who are trained in GIS to connect the dots, see the patterns and piece  them together to tell a story,” says Benson Lim.
+
+Project Manager Sarah Lee, Project Officer Muhd Fahmi Firdaus Ismail, and Lead Engineer Benson Lim from the Enterprise Platforms, Ops Infra, JCPMC. (Picture: Benson Lim)
+
+Screengrab from the SPF eGIS platform showing 3D map of buildings around The Float@Marina Bay
+
+(Picture: HTX)
+
+Developing the eGIS
+
+Back in 2014, the team started an in-house prototype using a commercial-off-the-shelf product known as ArcGIS. The product was then adopted into SPF’s operational environment as a backbone with a system integrator piecing together all the requirements to develop new capabilities. Along the way, new capabilities such as 3D geodata and line-of-sight analysis were introduced to provide a new visual perspective to SPF officers when planning for significant events such as the National Day Parade.  3D models of buildings, when used with line-of-sight analysis, allow Police to analyse and plan for any visual obstructions before going for site survey. A heatmap analysis tool in the system allows ground officers to determine the areas around Singapore they should concentrate on a daily basis.
+
+Today, the prototype has evolved into an enterprise level platform serving 16 SPF systems and various users from SPF, SCDF and HTX. In addition to SPF, SCDF and CNB have also implemented their own eGIS platforms. However, with the ability to collect massive amounts of geospatial information, comes the need to interpret and apply that data – that is where HTX’s experts play a vital role.",,
+[FEATURED NEWS] ICA-HTX'S WEARABLE TECH FOR STAY-HOME NOTICE MONITORING,18-Jun-21,https://www.htx.gov.sg/news/featured-news-ica-htx's-wearable-tech-for-stay-home-notice-monitoring,"From 10 August 2020, the Immigration & Checkpoints Authority (ICA), supported by the Home Team Science and Technology Agency (HTX), will be issuing electronic devices to all returning Singapore Citizens, Singapore Permanent Residents and Long-Term Pass holders who will be serving their Stay-Home Notices (SHNs) at their residences or self-paid accommodation.
+
+In preparation for the progressive opening up of our borders in the months ahead, the electronic devices will help ICA enforce strict compliance with SHN requirements more effectively, and mitigate the risk of imported COVID-19 cases contributing to local transmission.
+
+Ease of Use
+
+Persons serving SHN (PSHNs) will be issued an electronic wristband, a gateway device and a user guide after their arrival at immigration clearance[1].
+
+Components of the handy self-service solution (Photo: HTX)
+
+The device needs to be activated once the PSHNs reach their place of residence/accommodation. Activation is straightforward and easy. First, PSHNs need to download the StayHome@SG application onto their mobile phone. Next, they should register their profiles by providing the required information through the mobile application, in order to activate the wristband and gateway device. They can then proceed to plug the gateway device into a power supply source and don the wristband for the entire 14-day SHN period.
+
+During the SHN period, users are required to check their mobile application periodically for notifications from ICA, and acknowledge the notifications in a timely manner through the mobile application. Upon completion of the SHN, users will be informed either by ICA or via the StayHome@SG application to cut the wristband and uninstall the application from their mobile phone.
+
+ELECTRONIC WRISTBAND FOR PERSONS
+ON STAY -HOME NOTICE
+Upon arrival at the checkpoints , persons who need to
+serve SHN (PSHN) will be issued with two items
+- a wristband and a gateway device , after immigration
+clearance . They will also be given a user- guide.
+Upon reaching their place of residence /self-paid
+accommodation , PSHNs need to perform the
+following steps:
+STEP 1
+Download the
+StayHome @ SG mobile application
+for free from the
+App Store
+Google Play
+STEP 2 
+Register their
+profile and
+activate the
+wristband and
+gateway device
+STEP 3
+Plug the gateway
+device into a
+power source
+STEP 4
+Wear the
+wristband
+Those who are unable to activate
+their devices, or do not have access
+to smart-phones or network may
+call StayHome@SG helpline at
+6962 2516 for assistance .
+For more information , they may refer to
+ICA's website for the list of Frequently Asked
+Questions and an instructional video.
+
+(Source: ICA)
+
+“We wanted a solution that offers ease of use to PSHNs, but also ensures users’ compliance to SHN. After weighing multiple technical and practical considerations for reliable, efficient and secure operations, we found this e-wristband, paired with an IoT gateway device, to be an effective, self-service solution,” said Deputy Director Seah Swee Leng from HTX’s Sense-making & Surveillance Centre of Expertise (S&S CoE). He is part of the cross-departmental team, made up of officers from ICA and HTX (its Immigration & Checkpoints PMC and S&S CoE) that were tasked to source for and customise the solution.
+
+(L to R) Engineer Ong Si Ci (Sense-Making & Surveillance Centre of Expertise, HTX); Deputy Director of ICA’s Intelligence Division DAC Tan Hoe Koon; Engineer Jiang ZhengJie (Immigration & Checkpoints Programme Management Centre, HTX) at the ICA media engagement session on 3 August 2020. They were part of the team who had worked together on this electronic wristband solution. (Photo: HTX)
+
+Effective Monitoring
+
+This electronic wristband solution enables ICA to ensure that PSHNs comply with the SHN requirements. It comes equipped with sufficient battery life to last the entire 14-day SHN duration.  
+
+Electronic monitoring to ensure the PSHNs do not leave their place of residence/accommodation during the SHN period is done in the following ways:
+
+Bluetooth Low Energy (BLE) communication between the gateway device and the wristband will enable ICA to determine if the person is within acceptable range of the gateway device.
+The gateway device establishes its own connection to ICA, which is not dependent on external network access.
+When the wristband is detected to be out of range of the gateway device, tampered with, cut or loosened; or when the gateway device is removed from the power supply – ICA will be alerted and will conduct follow-up investigations.
+
+ICA will perform a video call or
+house visit to ensure the devices are
+worn and registered accurately .
+During the 14 -day period, the PSHN
+must not remove the wristband or
+the gateway device at any point.
+The wristband is water resistant
+and has sufficient battery life to last
+throughout the SHN period.
+Any attempt to damage or tamper with
+the devices , or to leave the place of
+residence /self-paid accommodation
+during the 14 -day SHN period will
+result in an alert being sent to ICA.
+The wristband and the gateway
+device should only be removed after
+the SHN period and disposed in
+accordance to the proper e -waste
+disposal methods.
+BENEFITS OF ELECTRONIC WRISTBAND
+With the gradual re - opening of the borders , we can expect
+more incoming travellers who would be required to serve SHN .
+With real -time monitoring , ICA will now be alerted if any PSHN
+attempts to tamper with the wristband /gateway device or
+leave their residence /self - paid accommodation .
+This measure enables ICA to monitor those serving SHN more
+effectively and mitigate the risk of imported cases .
+
+(Source: ICA)
+
+Safeguarding Data Security
+
+All information sent from the wristband to the ICA’s servers is encrypted. At the end of the SHN period, all data collection pertaining to the PSHN will cease and the mobile application will be locked from further usage. Information collected will be stored and secured in the government database. Data protection measures are in place to prevent data loss or theft, unauthorised access and undue disclosure.
+
+Helplines
+
+PSHNs who have problems with their device or do not have access to a smartphone with internet connection may call the StayHome@SG helpline at 6962 2516 for technical assistance. Those who require other types of assistance, such as updating the address where they are to serve their SHN, may call the SHN helpline at 6812 5555. They will not need to visit the ICA Building. For more information, please visit the ICA website at ica.gov.sg.
+
+ 
+
+[1] Work Pass holders will be monitored by the Ministry of Manpower using a different monitoring device. ",,
+[MEDIA RELEASE] NEXT-GENERATION FAST RESPONSE CAR (FRC),18-Jun-21,https://www.htx.gov.sg/news/media-release-next-generation-fast-response-car-(frc),"Singapore, 2 August 2020 -  The Singapore Police Force (SPF) is rolling out the next-generation of Fast Response Car (FRC) for Ground Response Force (GRF) operations. The project is a significant collaboration between the SPF and the Home Team Science and Technology Agency (HTX) that marks a milestone in developing vehicles that are customised for SPF’s unique operational challenges.
+
+ 
+
+2          The next-generation FRC integrates both technology and functional design in order to improve our officers’ operational effectiveness and safety, and represents a significant improvement over the SPF’s current fleet of patrol vehicles.
+
+(Photo: SPF)
+
+ 
+
+3          Key features of the next-generation FRC include:
+
+Integrated Vehicular Dashboard (IVD). This provides officers seamless use and control of all the technological functions in the car.
+In-Vehicle Video Recording System (IVVRS). This provides live streaming of high-resolution video footage to the Police Operations Command Centre (POCC) that allows for better sense-making and incident management.
+Automated Number Plate Recognition (ANPR) system. This detects vehicle of interest on the move, without officers having to divert their attention from other ongoing tasks.
+Radio-frequency Identification (RFID) technology in the vehicle boot. This technology in the car boot enables the police to track equipment within the vehicle, thus improving equipment accountability and streamlining work processes. A boot organiser has also been included to improve the retrieval of specific items from the boot.
+Person-in-custody (PIC) compartment. This custom-built compartment is made from material that is easy to clean and maintain. It features a central divider that separates the driver from persons in rear seat, a seatbelt attachment mechanism that allows for the safe and effective restraint of persons-in-custody, as well as curvature to allow space for persons handcuffed to the rear.
+Ergonomic cut out seats - The driver and passenger seats are ergonomically contoured to ensure that officers wearing police equipment on their belts can enter and exit the vehicle smoothly, and operate for long hours without excessive discomfort.
+External mounted lights. These lights provide the lighting that may be required for certain operations, such as search missions in hours of low light.
+Police Warning System with rumbler. The police warning system in the vehicle features a set of blinkers, a siren and a public announcement system. It also includes a rumbler that emits low-frequency sound waves to more effectively warn other road users of the vehicle’s approach.
+Selected FRCs will also be used to explore modular capabilities such as an integrated localised drone disruption function.
+ 
+
+4          Senior Assistant Commissioner of Police How Kwang Hwee, Director of Operations said, “The next-generation FRC is a key investment that will further improve the operational effectiveness and safety of our ground officers. Officers’ feedback has been an integral part of the vehicle’s conceptualisation and development, and there has been much attention to detail on the features that have been included. The SPF will continually strive to explore and adopt technology to improve our frontline capabilities.”
+
+ 
+
+5          Director of Land Systems Centre of Expertise at HTX, Mr Eric Chua, said, ”The collaboration between HTX and SPF in developing the next-generation FRC marks a significant milestone in developing vehicles for SPF’s operational needs. HTX’s different Centres of Excellence (CoE) – Land Systems, Human Factors and Simulation, Sense-making and Surveillance CoEs, and the Joint Capabilities Programme Management Centre – had worked together on the vehicle’s functional designs and advanced technology. In lending deep technical expertise to delivering a robust and innovative vehicle, HTX continues to serve its mission as a force multiplier that effectively enhances the Home Team’s operational efficiency and safety.”
+
+ 
+
+6          About 300 next-generation FRCs will be rolled out progressively, and is estimated to replace the current fleet of FRCs by 2024.
+
+ 
+
+7          The public can look forward to seeing the next-generation FRC as part of the mobile column at the National Day Parade. The mobile column will make its way to the heartland areas – Woodlands, Bishan and Geylang Serai on 9 August 2020.
+
+(Source: SPF)",,
+[FEATURED NEWS] MINISTER FOR HOME AFFAIRS NATIONAL DAY AWARDS,18-Jun-21,https://www.htx.gov.sg/news/featured-news-minister-for-home-affairs-national-day-award,"Congratulations to all our Minister for Home Affairs National Day Awards Winners!
+Four HTX officers and two projects that our HTX units co-led received the Minister for Home Affairs National Day Awards 2020. The recipients were announced on 29 July 2020 at the Home Team National Day Observance Ceremony. They were among 105 Home Team officers who received the Individual Award and three Home Team projects which received the Team Award. The award recognises Home Team officers who have distinguished themselves through significant and commendable contributions in their respective areas of work. 33 members of the public, 15 Home Team volunteers, and 12 organisations were also presented awards for their significant contributions to the Home Team.
+
+Minister for Home Affairs Mr K. Shanmugam commended all the award recipients for their commitment to keep Singapore safe and secure. “All our recipients have stepped forward when we needed them in times of need, in their own ways and they are role models and heroes for all of us. In these challenging times, let’s hold steadfast to our shared commitment to keep Singapore safe, secure and peaceful,” he said.
+
+“Our heartiest congratulations to all the award winners this year. Their dedication, professionalism and spirit of innovation are an inspiration to us all,” said HTX Chief Executive Mr Chan Tsan.
+
+On the HTX recipients, he said, “I mentioned at a recent HTX Town Hall that we are building HTX brick by brick and that our people are the centre of it all. All our officers across the Capability Planning, Development and Sustainment pillars have important roles to play in growing and building HTX to be the Home Team’s Force Multiplier. This year, I am pleased to see four of our officers recognised with Individual awards and two of our projects receiving Team awards. To the award winners and everyone at HTX, I thank you for your important contributions to the work of the Home Team in keeping Singapore safe and secure. Happy National Day!”
+
+Read on to get to know our four individual award winners – Chan Sheau Shan, Mohamed Amir Arshad, Goh Eng Joo, and Wong Weiyang – from HTX and our two winning projects – T3-Xentinel and Project Heavy!
+
+
+Minister for Home Affairs National Day Award (Individual) – Chan Sheau Shan
+Lifelong Learning Journey
+
+(Photo: Chan Sheau Shan)
+
+For many of us, navigating the procurement process can be a daunting affair. Not for Chan Sheau Shan. As Deputy Director of Procurement Unit, Sheau Shan is a walking guide on MHA procurement procedures. With her expertise in procurement, Sheau Shan has guided and developed the competency of the MHQ Quotation Processing Unit and has been instrumental in setting up of the HTX Quotation Processing Unit.
+
+A firm believer and proponent of lifelong learning, she has also been involved in other areas such as logistics and corporate services. She did a stint as Deputy Director with Finance and Admin (FAD)/MHQ, to gain exposure to other related areas in procurement. In HTX, she was involved in FAD’s Admin Transformation plan, to right size the FAD unit to oversee the specialist functions of Building & Infrastructure, and Procurement in FAD. She has also worked with the HTX Corporate team on the administrative functions that the new team was to take over. On receiving the award, she says, “The award spurs me to continue learning and to give my best.”
+
+With deep knowledge and skillsets in procurement and corporate services, it is no wonder that officers often turn to Sheau Shan for advice and guidance to better understand procurement processes and the ‘blind spots’ to look out for.
+
+
+Minister for Home Affairs National Day Award (Individual) – Mohamed Amir Arshad
+Justice through Science
+
+(Photo: Amir Arshad, second from right)
+
+If there is one thing that keeps Senior Crime Scene Specialist Mohamed Amir Arshad going on strong at his job for eight years, it is the job satisfaction in knowing that his work plays an important role to achieve justice for victims and their families.
+
+Amir’s keen interest in science and criminal investigation led him to a job in forensics science. “I have always been intrigued with how the application of science is able to reconstruct a crime that had taken place. As a forward deployed officer, I am able to share my expertise in the crime scene and collaborate with investigators to tackle challenges in the criminal investigation. At the same time, I can explore new advanced technology to combat limitations faced in my line of work,” he says. 
+
+Throughout his service, Amir has consistently delivered quality forensic services to the investigation fraternity. He is widely regarded to be a highly skilled and motivated forensic specialist who possesses strong leadership traits. These qualities led to his deployment in Nepal as part of a disaster victim identification mission during the 2015 earthquake.
+
+When asked what his advice would be to young people looking for a career in forensics, he quips, “If you want a career that is more than just a job, HTX is the place to be.”
+
+
+Minister for Home Affairs National Day Award (Individual) – Goh Eng Joo
+Justice through Science
+
+(Photo: Goh Eng Joo)
+
+“Change is the only constant in life.” With over 22 years of experience at MHA, Supt Goh Eng Joo’s work is testament to this proverb. He has held many key appointments in MHA, mainly Head of Training at the Home Team School of Criminal Investigation (HTSCI), and Commanding Officer (CO) of Bedok North Neighbourhood Police Centre (NPC). 
+
+He led the HTSCI through its innovation journey, by enabling process changes to improve training productivity from traditional classroom-based lessons to application-based ways of learning for Criminal Investigation Training. For helping the Home Team take a giant leap towards innovation, he received the Exemplary Leader Award at the 2019 Public Sector Transformation Award. As CO NPC, he was an inspirational leader and coach to his subordinates.This laid the strong foundation to Bedok NPC clinching the best NPC within the Division during the inaugural NPC League competition.
+
+Currently on secondment at HTX, Eng Joo has served as the Deputy Director for Trials & Experimentation, and is now the Deputy Director for Partnerships. He has put in place key work processes to ensure agile project management. He also serves as a guide to younger officers by coaching and mentoring programme managers and executives under his charge.
+
+Implementing change is no easy feat but Eng Joo remains enthusiastic as he continues to contribute towards HTX’s and MHA’s success through transformation. 
+
+
+Minister for Home Affairs National Day Award (Individual) – Wong Weiyang
+A Curious Mind
+
+(Photo: Wong Weiyang)
+
+Have you ever wondered about the existence of your doppelgänger or the existence of people born with super recognition ability, who can recognise and differentiate faces, sometimes better than machines and software? For Wong Weiyang, a Senior Lab Manager at HTX’s Biometrics & Profiling CoE, both phenomenon are subjects of fascination and curiosity. 
+
+It is this interest that sparked Weiyang’s journey with MHA in 2013. He spent five years managing the Automatic Interview System – a secondary screening process used by the Immigration & Checkpoints officers and assisted in the review and data analysis of more than 25,000 travellers. 
+
+With the formation of HTX, Weiyang took on the challenge of a new field of expertise under the Biometrics & Profiling unit. Despite picking up biometrics only for a short period, he has provided invaluable advice to the ICA, in their push to implement the New Clearance Concept, and the extensive use of Iris and Face Biometrics as an integral component of the clearance process for travellers.  
+
+Weiyang has been consistently applying his wide-ranging and deep knowledge in S&T to support Home Team operations, quickly picking up new skills and knowledge, and constantly seeking to improve and create impact at a higher level. His work motto is, “There is a way out of every box, a solution to every puzzle; it’s just a matter of finding it.”
+
+
+Minister for Home Affairs National Day Award (Team) – T3-Xentinel
+A Team Effort – Countering Drones
+
+Drone intrusions pose a serious safety and security threat to Security Sensitive Locations (SSLs) and events protected by the SPF. Protection against drones is labour intensive, but with the help of technology and domain experts, challenges can be addressed. A team comprising HTX, SPF, and DSO was formed to meet the challenge of developing an effective and expedited counter drone solution for SSL. 
+
+The team conceptualised and developed a system that was commissioned in 14 months. This is a noteworthy achievement for a full featured counter drone system with capabilities to detect, identify and interdict drones using a combination of cutting-edge technologies. To achieve this, the team put in long working hours, on weekends and public holidays.  
+
+(The T3-Xentinel project team with the system. Photo: HTX)
+
+For the excellent teamwork, dedication to duty, operational efficiency, and integration of innovative technologies, the T3-Xentinel project team was presented with the Minister for Home Affairs National Day Award (Team).
+
+ (The T3-Xentinel project team. Photo: HTX)
+
+On receiving the award, co-Project Team Leader, Director/Land Systems Eric Chua and his team are elated. “The T3-Xentinel team is indeed humbled by this great honour. The award is a strong testament of the excellent collaboration of the multi-domain team from Land Systems CoE, RAUS CoE, Central Procurement Office and Strat Comms, where we leveraged the strengths and expertise of each team member to deliver the stunning prototype in an incredibly challenging schedule. The award is also a strong confirmation of our value-add in providing innovative and advanced S&T solutions that contribute towards HTX’s focus to “eXponentially impacting Singapore’s safety and security,” said Eric.
+
+“The team from RAUS CoE working on counter drone technologies is very honoured to receive this prestigious award. We are Xceedingly appreciative of the highest level of recognition accorded by MHA’s Senior Management. Personally, I am very proud of the RAUS team who committed countless hours and personal sacrifices to ensure that the systems were delivered with the required capabilities. Moving forward, the team commits to continue striving towards delivering more cutting edge counter drone technologies to the Home Team,” added Director/RAUS CoE, Cheng Wee Kiang who also served as co-Project Team Leader.
+
+The HTX officers involved in this project are:
+
+Cheng Wee Kiang
+
+Director, RAUS
+
+Eric Chua Hing Han
+
+Director, Land Systems
+
+Chua Song Heng
+
+DD, RAUS
+
+Mok Shao Hong
+
+DD, Partnerships
+
+Alen Ke Wai Loon
+
+Senior Engineer, RAUS
+
+Nicholas Chong
+
+Manager, PMC
+
+Brina Seow Ying Ming
+
+Engineer, RAUS
+
+Rajinder Singh
+
+SDD, CPO
+
+Khoo Yew Beng Rodney
+
+AD, CPO
+
+Tan Puay Hia Vivian
+
+Manager, CPO
+
+
+Minister for Home Affairs National Day Award (Team) – Project Heavy 
+A Team Effort – Fighting Fire
+
+Battling fires get more dangerous and harder when it is out at sea. That is why the SCDF has been customising firefighting vessels that are more agile and powerful. With these vessels, SCDF is now able to handle beyond typical fires at sea. The new capabilities include large petrochemical fires, mass evacuation, and marine Chemical, Biological, and Radiological (CBR) contamination.
+
+In delivering the new capabilities, HTX units - Marine Systems CoE, Joint Capabilities Programme Management Centre (PMC) and Police PMC - worked with SCDF and DSTA.
+
+(Photo: SCDF)
+
+The Heavy Fire Vessel (HFV) is designed to contain and address large scale fires in Singapore’s maritime waters and coastal areas and is capable of achieving a throw distance of at least 150m, allowing users to fight fire from afar. It is equipped with a CBR protection and detection system to detect harmful threats and perform hazardous material rescue missions out at sea. In addition, the HFV is capable of launching an inflatable boat to swiftly reach any survivors safely.
+
+(Photo: SCDF)
+
+The Heavy Rescue Vessel (HRV) is designed to serve as SCDF’s primary rescue and command platform. It is capable of accommodating up to 300 survivors in the rescue room and carry additional life rafts for 500. It is also equipped with a first aid room to treat casualties. 
+
+(Photo: SCDF)
+
+The Marine Rescue Vessel (MRV) is able to perform fast incident response in any fire or rescue incidents within Singapore Territorial Waters. The MRV has a recessed rescue zone that would facilitate lifting of survivors out at sea and accommodate 30 survivors in the rescue room. A CBR detection and protection system was also incorporated into its design, so that it is capable of conducting HazMat Rescue operations in hot zones.
+
+On receiving the award, Director/Marine Systems, Chung Kam Sam said, “We are excited to deliver these new vessels with enhanced features and specifications to the SCDF. The HTX/DSTA team is grateful for the opportunity to collaborate with SCDF to deliver this world-class capability, and enhance our ability to handle incidents in our waters.”
+
+ 
+Congratulations to all our winners!",,
+[FEATURED NEWS] MARKSMEN IN THE MAKING WITH SMART TRAINING TECHNOLOGY,18-Jun-21,https://www.htx.gov.sg/news/featured-news-marksmen-in-the-making-with-smart-training-technology,"A police officer practising at the live firing range (Photo: HTX)
+
+Every little breath, every twitch of your finger, or even blinking too often can cause you to fail, miss the mark and possibly result in a loss of life in the worst instance.
+
+Shooting a gun or revolver accurately is a skill that demands precision. You might have tried shooting in a video arcade but that is very different from the real-life experience which Singapore police officers have to rigorously train for.
+
+They even have to take a yearly revolver shooting test to ensure that they are up to the mark.
+
+The officers are faring well, with over 90 percent passing the test every year. But the police force wanted to improve the scores – and ultimately boost public safety.
+
+Previously, while warming up before the test, the police officers were only able to see where their shots had landed when the target boards were retrieved at the end of the warm-up shoot or the basic firing shoot. They had to rely on the instructor to give them feedback retroactively on areas they could improve on, based on the instructor’s experience and observation of the grouping of the shots. There was no real-time analysis after each shot was fired.
+
+While most passed the test, the minority who failed could not go back to work on the frontline until they retook the test and passed it. 
+
+A target board showing where the shots landed (Photo: HTX)
+
+Today, officers’ firearm competency can be improved using a better training system. The Enhanced Live Firing Range System (ELFRAS), developed by the HTX Human Factors and Simulation Centre of Expertise and the Singapore Police Force, uses sensors and analytics to improve the shooting accuracy of those taking the test.
+
+The system not only provides information on the grouping of shots, but also does real-time analysis of human factor indices such as weapon handling, breathing, shooting posture and stance, trigger motion, gaze fixation and visual alignment, so that timely and targeted training feedback can be provided.
+
+The ELFRAS giving real-time guidance to help officers improve their shooting skills (Photo: HTX)
+
+It also has a video-monitor which displays the shots on the target in real time, so officers can see immediately how they have performed.
+
+But beyond that, ELFRAS tactically deploys sensors to pick up minute physiological human factors, which could affect the shot accuracy of the person taking the test:
+
+A weapon sensor, attached to the revolver and pistol, measures if the officer is handling his weapon in the right way for maximum accuracy. It also diagnoses typical poor weapon handling issues related to the pulling of the trigger and gripping of the weapon, amongst others.
+A pair of glasses with eye-tracking sensor can compute if and how long the officer has fixed his gaze on the target through the front and rear sight of the weapon, and even measure if he has blinked his eyes during the shot.
+A breathing sensor tells the officer if his breathing technique and even inadvertent swaying may result in general body movements which could impact shot accuracy.
+A posture detection system comprising a pair of cameras at the shooting lane and backend pattern recognition algorithm reads and compares the officer’s posture against a range of ideal shooting postures. 
+
+Multiple sensors capturing shooting performance for review and improvement (Photo: HTX)
+
+The data is further analysed and compared against best practices, so the shooter gets recommendations on how he can improve. For instance, he may learn how to adapt his breathing techniques to get better shots. The HTX team is also providing detailed design recommendations for the user interface to provide trainers with a one-glance view of the overall performance, including sufficient shot-by-shot detail so that the trainer can gain immediate insight on the performance gaps. This will enable the trainer to provide timely intervention to the trainee in between shots.
+
+Quick summary of last shots at the same target distance for quick review of factors affecting performance (Photo: HTX)
+
+ELFRAS also monitors the shooting performance of officers not just within a single shooting exercise but over multiple exercises as well. With all the data, training pedagogy can be customised to increase the number of marksmen.
+
+Apart from the police force, ELFRAS could be used by frontline officers in other Home Team departments like the Central Narcotics Bureau, and the Immigration and Checkpoints Authority.",,
+[MEDIA RELEASE] NEA LEADS SCIENTIFIC TEAM IN WASTEWATER SURVEILLANCE TRIALS FOR ASSESSMENT OF COVID-19 TRANSMISSION,18-Jun-21,https://www.htx.gov.sg/news/media-release-nea-leads-scientific-team-in-wastewater-surveillance-trials-for-assessment-of-covid-19-transmission,"Wastewater-based COVID-19 surveillance complements clinical testing and can provide an additional indicator to assess the spread of disease in a community.
+
+Singapore, 19 June 2020 – The National Environment Agency (NEA) has initiated a pilot surveillance programme to screen wastewater samples for SARS-CoV-2, the causative virus of COVID-19. The amount of viral material in wastewater from a community could reveal the level of COVID-19 spread in the community, and trigger the necessary response plans and mitigation actions, such as individual testing and isolation. Supported by National Water Agency PUB and Home Team Science and Technology Agency (HTX), the novel approach has complemented the Inter-Agency Task Force’s1  efforts in assessing the situation and reducing the transmission of COVID-19 in the workers’ dormitories. 
+
+Gleaning information from wastewater 
+
+2       Wastewater surveillance is a promising method for assessing the COVID-19 situation, as infected individuals, including those with mild or no symptoms, could shed the virus in their stool. Since February 2020, scientists from NEA’s Environmental Health Institute (EHI), with scientific inputs from Nanyang Technological University and its research centre Singapore Centre for Environmental Life Sciences Engineering (SCELSE), Singapore-Massachusetts Institute of Technology Alliance for Research and Technology (SMART) and the National University of Singapore, have developed a methodology for wastewater sampling and testing for COVID-19. With support from PUB and HTX, the team has been sampling wastewater from the Water Reclamation Plants (WRP) and workers’ dormitories. In the laboratory, a sensitive molecular assay is used to screen the samples and quantify the genetic material of the virus.
+
+3       Results from the testing of the wastewater from the WRPs showed that the level of COVID-19 viral ribonucleic acid (RNA) was not detected when there were 160 COVID-19 cases reported nation-wide as at 9 March 2020. However, the RNA levels became detectable in late March 2020, which correlated with the increase in cases detected in foreign workers’ dormitories. This demonstrated the usefulness of wastewater surveillance as a monitoring tool for SARS-CoV-2.
+
+4       “Several reports overseas have shown that wastewater testing at treatment plants could be useful for early detection of COVID-19 transmission in the community. However, at low level transmission, wastewater surveillance at the treatment plant appears to be less sensitive than clinical surveillance of cases in Singapore. This is likely due to our intensive clinical testing regime. Monitoring is ongoing to determine the trending of the concentration of viral material at the WRPs, and the relationship between the viral material concentration and prevalence of COVID-19 in Singapore”, explained Assoc. Prof Ng Lee Ching, Director of NEA’s Environmental Health Institute.
+
+5       Detection of viral material or RNA in the wastewater does not suggest the presence of viable or infectious virus. Without a host, the virus will not be able to propagate over time in wastewater. As an added preventive measure, wastewater from locations with COVID-19 cases, such as hospitals, isolation facilities and dormitories, are disinfected with chlorine at the premises before discharge into the public sewers. Disinfectants like chlorine can effectively inactivate the viruses.  
+
+Wastewater testing to support dedicated efforts at workers’ dormitories
+
+6       Testing of wastewater to assess the situation of COVID-19 in a community or geographical population catchment is not new. However, NEA’s EHI has brought the science of wastewater testing further by using it to support the Inter-Agency Task Force’s dedicated effort in monitoring and management of COVID-19 transmission among workers in dormitories (refer to Annex A for pictures of lab and field work). The pilot programme involves monitoring wastewater in manholes of 20 large dormitories to provide an additional indicator that complements the clinical tests to assess the COVID-19 situation and guide the progressive clearance of the dormitories. 
+
+7       For dormitories in the pilot programme with no detected COVID-19 cases, a zero reading for SARS-CoV-2 material in the wastewater provided the added assurance that the dormitories remain free from infection, and to allow the workers to leave the dormitories for work. On the other hand, viral material was detected in the wastewater of some dormitories, and this had prompted more swab tests for workers at these dormitories, leading to more detections and isolation of cases, including asymptomatic ones. This facilitated a more targeted swabbing strategy and contributed to the mitigation of further transmission.   
+
+8       The trial results at the dormitories also show that the concentration of SARS-CoV-2 material in wastewater is related to the prevalence of COVID-19 in the dormitories. The team has thus far demonstrated the utility of wastewater testing as a warning system for the presence of the COVID-19 cases, and that the trending of SARS-CoV-2 concentration over time can determine if infection control measures taken have been effective. Wastewater samples can also capture information on a cross-section of the community, which allows for the monitoring of large groups. If positive signals are detected from wastewater at a particular site, clinical testing for COVID-19 can be carried out for the affected community, allowing screening for COVID-19 to be carried out in a more targeted manner. Although the approach has been useful in detecting COVID-19 cases, more research is needed to understand the sensitivity of the method in detecting early or a few number of cases.
+
+9       Despite its potential, the use of wastewater surveillance to detect COVID-19 spread is still in its early stages. NEA is working to ramp up its capacity to increase its coverage by expanding sampling to more wastewater nodes, which would improve the ability to pick up transmission. More information on the results of the wastewater surveillance in Singapore will be revealed when ready. 
+
+JOINTLY ISSUED BY NEA, HTX & PUB
+19 JUNE 2020
+
+1Led by the Ministry of Manpower and comprises the Ministry of Health, the Singapore Armed Forces and the Home Team, the Inter-Agency Task Force has been set up to support foreign workers and dormitory operators in managing COVID-19. 
+
+ANNEX A
+
+Photos of field work 
+
+Photos of lab work 
+(Photos: NEA, PUB, HTX)
+",,
+[FEATURED NEWS] COUNTING ON ROBOTS IN TIMES LIKE THESE,18-Jun-21,https://www.htx.gov.sg/news/featured-news-counting-on-robots-in-times-like-these,"(Photo: SPF)
+
+It’s not an R2D2 or C3PO, with endearing human emotions and human-like dexterity. But the humble invention of the M.A.T.A.R. is no less of a force to be reckoned with – for HTX engineers, our local police, and foreign workers at the dormitory. 
+
+When we think of robots, we invariably conjure up images of high-powered bots like those in Star Wars and Transformers. We are drawn to robots that can interact with humans like any other human. But beyond these imaginary characters that we play with and are entertained by, robots in real life serve human needs, offering newfound conveniences and improving our lives in myriad ways. At a crucial time like the current COVID-19 situation, the pressing need to count on robots to help protect and save lives is even more felt.
+
+That is where HTX’s Multi-purpose All-Terrain Autonomous Robots (M.A.T.A.R.) came in very useful. With more Government Quarantine Facilities (GQF) and isolation facilities being set up during this period, reinforcements in policing the living quarters to enhance their security are much needed. This led to M.A.T.A.R.s being deployed by HTX and the Singapore Police Force (SPF) to help with foot patrol and project police presence at a GQF and a foreign worker dormitory. 
+
+The M.A.T.A.R.s’ autonomous patrolling capability has not only enhanced the efficiency of police ground ops, but also helped to reduce exposure of frontline officers, thus keeping them safe. The M.A.T.A.R.s also made the living quarters safer for residents by helping to ensure safe distancing, in place of human officers. 
+
+M.A.T.A.R. patrolling the foreign workers dormitory (Video: SPF)
+
+Realising the Potential of M.A.T.A.R.  
+The use of M.A.T.A.R. today exceeded expectations of the HTX engineers who first conceived it while in the Ministry of Home Affairs (MHA) in early 2016. The project almost could not take off, as their peers then questioned the need for such a robot, with some seeing it as a potential white elephant. But having management’s support, they nevertheless pushed on with the effort, believing that it would result in something unique and useful for the Home Team.
+
+Their confidence was boosted with M.A.T.A.R.’s first launch in 2018, when they received favourable responses and even queries from other countries to learn more about the robot. The experience of building M.A.T.A.R. from scratch – with a common framework architecture that allows integration of several key robotics technology building blocks (such as Simultaneous Localisation and Mapping, Obstacle Detection Obstacle Avoidance, path planning, road segmentation, cooperative behaviours), coupled with specific payload capabilities – was rewarding and valuable for further applications. With the robotics software developed, the team could apply it subsequently to multiple Home Team operations, for example perimeter surveillance, autonomous equipment transporter, and even augment Rover-X for search and rescue missions.
+
+Although they already had a workable prototype of the M.A.T.A.R. in 2018, the engineers didn’t stop trying to improve on its capabilities. They wanted more, and had an insatiable desire to make the M.A.T.A.R. even better. In late 2018, they came up with the idea of incorporating a tethered drone as part of M.A.T.A.R. This would mean a quantum leap in M.A.T.A.R.’s capabilities, as having an aerial picture would give SPF a real advantage and improved situational awareness of the ground. That was a tough endeavor though – the timeline was short and budget was tight. But they eventually pulled it off in 2019, together with project partners.
+
+Today, M.A.T.A.R. provides a 360-degree video feed to Police Command Centres, has audio communication functions for relaying instructions, is autonomous and can be controlled remotely. 
+
+Force Multiplier Effect
+M.A.T.A.R.s are currently being deployed for 24/7 tireless patrol at a foreign workers dormitory. “M.A.T.A.R.’s deployment to help augment police ground ops during the COVID-19 period, is a small but significant step for SPF, and a giant leap for HTX – in using robotics technology in real-life ops as a force multiplier,” said Deputy Director (Ground Robotics) Ong Ka Hing, who is the Technical Advisor of this deployment. Currently with HTX’s Robotics, Automation & Unmanned Systems (RAUS) Centre of Expertise, Ka Hing has more than six years of engineering experience at the MHA. He is also the technical lead in other HTX key robotics projects such as Rover-X, the search and rescue robotic dog, and the Automated Passenger In-car Clearance System (APICS).
+
+Being one of the key people who built M.A.T.A.R. from scratch and worked on its enhancement through the years, he said, “It is gratifying to see the idea that the team conceived way back in 2016 come to fruition and be deployed for COVID-19 operations. We envisage that this would be the beginning of an exciting journey for HTX, and that there will be more to come.
+
+“With eventual full-scale deployment of M.A.T.A.R., SPF and other Home Team Departments would be able to augment their manpower, thereby increasing their operational capacity and agility to meet the new challenges faced in future operations. The use of M.A.T.A.R. for SPF’s COVID-19 operations has helped the adoption of robotics and given SPF a glimpse into the potential of M.A.T.A.R.”.
+
+Ong Ka Hing, Deputy Director (Ground Robotics), RAUS CoE, sharing with the media about M.A.T.A.R. (Photo: HTX)
+
+Before the COVID-19 situation, M.A.T.A.R. has also been deployed to augment police operations at several major security events, such as the National Day Parade 2019, Marina Bay Countdown 2020 and Chingay 2020.
+
+The force multiplier team’s persistence with M.A.T.A.R. is leading on wider applications and more advanced technologies. And the more M.A.T.A.R.’s capabilities are being employed in ground operations, the more able, informed and inspired is the team in deepening its relevance to improve, protect, even save lives.
+
+Recognising its Benefits
+Recounting the scenario when HTX RAUS Engineer Goh Boon Kiat first arrived at the dormitory where the M.A.T.A.R.s were deployed, he said, “It felt surreal to see what used to be a carpark and basketball court converted into an ops area with tentage and barricades. It was a stark reminder of the gravity of the COVID-19 situation.” 
+
+He described how the dorm was segregated into zones – Red for residential area, Green for rest area, the command centre and SPF room where M.A.T.A.R. was housed. He said, after the route mapping for M.A.T.A.R. was done, there was no need any more for frontline officers to enter the Red Zone. All monitoring can be done from the Green Zone, and the robot will automatically navigate out of the Red Zone once its shift ends, for disinfection and return to charging station.
+
+M.A.T.A.R. on patrol at a foreign workers dormitory (Photo: HTX)
+
+M.A.T.A.R.’s deployment freed police officers of manual repetitive patrolling tasks, and substituted them in entering risky zones and performing risky operations. It can also respond to situations quickly, unlike human officers who first have to don full personal protective gear before heading onsite to address ground issues. 
+
+Goh Boon Kiat, RAUS Engineer, with M.A.T.A.R. at its charging station (Photo: HTX)
+
+Said Boon Kiat, “While we were doing some modifications onsite at the rest zone, we overheard the frontline officers having casual conversations about their family’s concerns over their well-being and children’s schoolwork. It impressed upon me that, although the mission of the robot may sound mundane, the benefits it brings are very real and extend beyond protecting our frontline officers, to their loved ones too.""
+
+It was heartening too for HTX’s partners – ST Engineering and A*STAR, who had played an instrumental role in M.A.T.A.R.’s deployment and development – to see M.A.T.A.R. being used for critical missions during the COVID-19 period. 
+
+The team at ST Engineering Land Systems said, “It’s a satisfying moment to see M.A.T.A.R. deployed in field where it extended HTX/SPF ground presence into areas not safe for security personnel to patrol and in times security manpower is stretched.”
+
+A*STAR partners were similarly glad to see that their enabling technologies have contributed to the nation’s fight against COVID-19 during this difficult time. “We will continue to work closely with public sector agencies such as HTX, SPF and local companies to create innovative solutions that can help boost productivity and work processes,” they said. 
+
+Bridging Distances and Impacting Lives
+M.A.T.A.R.’s deployment is yet another demonstration of how technology enhances and impacts lives. Helped by their collaboration with industry and research partners, HTX engineers are close to fully operationalising M.A.T.A.R. for police operations beyond COVID-19. 
+
+“Within the team, there is always a sense of camaraderie, driven by a common goal of wanting the Home Team to succeed. There is a lot of enthusiasm and excitement about technological developments, even those that are not within our individual areas, resulting in our chat group sometimes being flooded with articles. MHA and HTX senior management have also been very supportive of our initiative to lean forward in supporting SPF operations,” shared Ka Hing.
+
+HTX RAUS officers who are part of the team working on M.A.T.A.R.: (from left) Engineer Vanessia Choo, Deputy Director Ka Hing, and Senior Assistant Director Lee Guoming (Photo: HTX)
+
+Although working and living with robots is not new, it is no less wow. The conveniences and empowerment we enjoy with automation may seem simple and common, but they are not so at all. Behind the innovations are likely countless tries and efforts from many resilient and brilliant minds, behind the scenes and unnoticed in the public eye. But the human will and connection is nonetheless very present in doing the work of bridging distances and making a difference to lives through exploiting technologies.",,
+[FEATURED NEWS] HTX AND SPF COLLABORATE TO USE DRONES TO ENHANCE GROUND OPERATIONS DURING COVID-19,18-Jun-21,https://www.htx.gov.sg/news/featured-news-htx-and-spf-collaborate-to-use-drones-to-enhance-ground-operations-during-covid-19,"(Photos by HTX)
+
+As whole-of-government efforts to contain the spread of COVID-19 intensified following the Circuit Breaker measures, HTX’s Robotics, Automation & Unmanned Systems (RAUS) Centre of Expertise collaborated with SPF to trial drone technology to support SPF’s ground operations. 
+
+In late April, HTX and SPF deployed two sets of drone box systems to survey an industrial estate located in the Western part of Singapore. 
+
+Flying High
+
+    (Video courtesy of SPF)
+
+Without the need for an on-site operator, the drones can operate safely in hazardous and remote sites, and facilitate the viewing of difficult-to-access areas. Unlike conventional drones where a pilot is always required, these autonomous drones provide a vantage view over a large area and are therefore a much safer and more cost-efficient way of gaining greater insights for Police operations. 
+
+The drones are launched autonomously from their respective drone boxes, monitored by the local Command and Control (C2) Centre operators. The drones are programmed to fly, via waypoints above the industrial estate to survey the perimeters and common areas, to track anomalies such as gatherings/congregations, etc. Live footage from the flights is streamed back to terminals at the backend Command Posts. 
+
+According to Senior Engineer Low Hsien Meng from RAUS, who is part of the deployment team, the drones provide a wide coverage. They can pinpoint locations and zoom into certain areas, which might not be clearly visible to police officers on foot patrol or in vehicles. He added that the drones therefore augment SPF’s operational resource and capability in ensuring safety and security during the Circuit Breaker period
+
+Advances in Drone Technology 
+
+The Drone Box
+
+The Drone Box is an advanced mode of unmanned flight operation. The robotic automation system found within the drone box not only ensures that drone batteries are fully charged and ready to be installed, but also outfits the drones with the most effective payload for each specific operation. With the mundane and time consuming tasks taken care of by automation, the drone deployment team can focus on conducting the mission at hand.  
+
+The drone box solution is jointly developed by HTX, Airobotics Ltd and its local partner, SJ Defence Services Pte Ltd. 
+
+Propelling Forward
+
+For this trial, HTX-SPF deployed the *Extended Visual Line of Sight (EVLOS), which will allow the team to collect important technical data through flying in an urban built environment, and develop confidence in operating in such challenging terrains. With the successful deployment of the EVLOS drone box system in this trial, the team hopes to progress to its eventual goal of operating full Beyond Visual Line of Sight (BVLOS) flight from these drone boxes autonomously. 
+
+As there is huge potential for BVLOS application in public safety, search and rescue and delivery of supplies, HTX is currently working with various Home Team departments to design and customise an effective BVLOS solution to meet their specific needs and requirements. For instance, HTX is also exploring the use of such technology to deliver Automated External Defibrillators to achieve a shorter response time.  
+
+  
+*Most drone operators navigate Visual Line of Sight (VLOS) which means that flights are operated within the pilot’s line of sight. EVLOS flights require a safety pilot to eyeball the drone and take over control if required, while the primary drone operator can be situated within a control room. In BVLOS flights, the drone operator has no visual reference of the physical flight and depends on the instruments on-board the drone for situation awareness.",,
+[FEATURED NEWS] IDENTIFYING A FACE AMONGST THOUSANDS AT OUR BORDERS,18-Jun-21,https://www.htx.gov.sg/news/featured-news-identifying-a-face-amongst-thousands-at-our-borders,"Over 217 million people travelled in and out of Singapore in 2019. Part of our arsenal for detecting terrorists or wanted persons amidst the millions is a portable facial recognition system tucked in a luggage case which can be set up anywhere within minutes.
+Home Team officers at the checkpoints have been alerted by their foreign counterparts to look out for a criminal who may be trying to enter Singapore. All they have to rely on is a photo of the criminal’s face, as he is likely to be using a forged passport.
+
+Over 217 million people travelled in and out of Singapore in 2019. At the land checkpoints, about 415,000 people pass through daily and the number can go up to 475,000 during peak periods. It would be akin to searching for a needle in a haystack.
+
+The evolution of biometry and video analytics have transformed the field of facial recognition. Smart technologies can do the job of accurately and efficiently scanning thousands of faces for a match with persons-of-interest.
+
+While the Immigration & Checkpoints Authority (ICA) has been using facial recognition facilities at the checkpoint since 2012 , the introduction of portable facial recognition systems to checkpoints including Tuas Checkpoint, Singapore Cruise Centre and Changi Airport in July 2017 has enabled officers to act and react faster to threats. 
+
+Fitting into a luggage case, each portable system can be set up at strategic locations within the checkpoint in 10 minutes, making it accessible and fuss-free for frontline officers. The network of cameras scanning and screening faces allows the system to identify the person-of-interest amidst huge volumes of travellers. 
+
+These portable facial recognition systems can also be readily deployed by other Home Team Departments (HTDs) during events or at crowded places in Singapore to detect persons-of-interest. 
+
+HOW DOES IT WORK?
+
+The portable facial recognition system, comprising a laptop and a special video-camera, can be assembled within minutes.
+
+ 
+
+Finding the right spot: HTDs identify strategic locations where they think the person-of-interest would need to pass through at the checkpoints or elsewhere.
+
+Setting up: Officers carry a small luggage containing all the equipment they need, including a laptop and a special video-camera. Once they reach the identified spot, they can assemble their “portable facial recognition station” within minutes.
+
+Directing the crowd: People are directed to walk past the station, where the camera will scan the crowd and screen their faces against a database of known persons-of-interest.
+
+Smart technologies kick in: The features of each face are analysed using biometric facial recognition technology and matched against a database of faces of people listed by HTDs. The system can search against a large database, and even if there are changes in hairstyle, hair colour, and facial hair like a moustache or a beard, the facial recognition technology can accurately match the faces.
+
+Near real-time alerts: Once there is a match, officers who are at the scene are alerted via a mobile device and can quickly detain the person.
+
+[1] Implementation of the Automated Biometrics and Behaviourial Screening Suite (ABBSS) Command Centre at Woodlands Checkpoint ",,
+[FEATURED NEWS] SECURING SINGAPORE'S BORDERS AGAINST COVID-19,18-Jun-21,https://www.htx.gov.sg/news/featured-news-securing-singapore's-borders-against-covid-19,"COVID -19 TEST KIT
+The HTX COVID - 19 test kit is a
+collaboration between the Home
+Team Science & Technology Agency
+(HTX ) and Veredus Laboratories
+Pte Ltd , a company that specialises
+in the development of molecular
+diagnostic solutions
+
+Scientists from the HTX Chemical,
+Biological , Radiology , Nuclear & 
+Explosives Centre of Expertise
+designed the primers for the test kit
+based on the full genome of the
+COVID - 19 obtained from the Global
+Initiative on Sharing All Influenza
+Data ( GISAID ), a global platform
+that enables rapid sharing of
+influenza virus data. Veredus
+provided their patented VereChip TM
+technology , a Lab - on - Chip platform
+integrating two powerful molecular
+biological applications , Polymerase
+Chain Reaction (PCR ) and
+microarray.
+The test kit is able to identify
+COVID - 19 with high specificity and
+sensitivity .
+The test kits have been deployed at
+the air , sea and land checkpoints
+since 5 March 2020 .
+
+Design of the Primers
+The HTX scientists
+found the COVID - 19
+genome sequence
+information on the
+GISAID
+The team then
+designed primers
+that will anneal to
+targeted regions
+which have the unique
+genetic sequences of
+the COVID - 19.
+
+The Testing Process
+The RNA of the samples are 
+first extracted in the laboratory
+and then transcribed and 
+multiplied via a process known
+as Polymerase Chain Reaction 
+(PCR ) to amplify the signal of the
+target virus in the sample so that
+it becomes more detectable .
+The PCR is performed by loading
+the sample onto the VereChip
+Lab -On -Chip system , which is
+the size of a fingernail, and the
+reading of results is done via a
+microarray which is built into the
+chip .
+Source : HTX
+Information correct as of 17 March 2020
+
+When news of COVID-19 making people ill in China broke in January 2020, a team of scientists under the HTX Chemical, Biological, Radiological, Nuclear and Explosive (CBRNE) Centre of Expertise, leapt into action to develop a test kit that can detect the virus at the borders, quickly and accurately, to prevent infected travellers from coming in to Singapore.
+
+
+Developing the Test Kit
+
+When the COVID-19 genome sequence information was published on the Global Initiative on Sharing All Influenza Data (GISAID), a global platform that enables rapid sharing of influenza virus data, the HTX scientists started working on the design of primers to develop a COVID-19 test kit.  A primer is a short piece of DNA created to amplify a specific region of the target pathogen for identification using the Polymerase Chain Reaction (PCR) process.   
+
+The design of the primers is critical to ensure that the test kit is able to detect COVID-19 with high specificity and sensitivity, similar to how a key with a specific design will be able to open the corresponding lock.  The scientists also incorporated degenerate primers to cover possible mutations of COVID-19.
+
+These primers will be loaded on a Lab-on-Chip platform for tests to run. HTX collaborated with Veredus Laboratories, a company that specialises in developing molecular diagnostic solutions and patented the Lab-on-Chip platform.  This platform integrates two molecular biological applications, Polymerase Chain Reaction (PCR) and microarray.
+
+
+How it Works
+
+The testing process involves extraction, amplification and analysis. The RNA of the samples are first extracted in the laboratory, and then loaded on a chip. These chips are then processed and results will be available.
+
+Using this platform, we are able to process individual samples instead of doing batch-processing. This allows results to be delivered quickly, so that infected persons can be informed and contact tracing be conducted as soon as possible. This enables us to limit the spread of imported cases.
+
+ 
+
+Deployment of the Test Kit
+
+From 2359h on 4 Mar 2020, travellers entering Singapore who are deemed to exhibit symptoms such as fever and respiratory illness are required to undergo a nasal and throat swab. The swab samples are brought to the HTX laboratory for screening.
+
+
+3-in-1 Test Kit
+
+The HTX test kit can also test for two diseases with just one sample – COVID-19 and SARS-CoV. In the future, it will also be able to test for the Middle East Respiratory Syndrome Coronavirus (MERS-CoV).",,
+[FEATURED NEWS] HTX LAUNCHED AS FORCE MULTIPLIER FOR HOME TEAM,18-Jun-21,https://www.htx.gov.sg/news/featured-news-htx-launched-as-force-multiplier-for-home-team,"TUESDAY DECEMBER 3 2019 SINCE 1845
+THE STRAITS TIMES
+
+Prime Minister Lee Hsien Loong checking out a Rover -X robotic dog during the launch of the Home Team Science and Technology
+Agency yesterday, as Mr Ong Ka Hing ( in black), deputy director for ground robotics at HTX’s Robotics , Automation & Unmanned
+Systems Centre of Expertise , explained its functions. Those present included Senior Minister Teo Chee Hean (behind PM Lee),
+Minister for Manpower and Second Minister for Home Affairs Josephine Teo ( far left) and Mr Chew Hock Yong ( right, in light blue
+shirt), chairman of HTX's board of directors. ST PHOTO : JASON QUAH
+HTX launched as force multiplier
+for Home Team
+
+A new statutory board was launched 
+yesterday, with the mandate to develop
+customised tech solutions and grow organic
+capabilities for the Home Team . 
+The Home Team Science and Technology
+Agency (HTX ), with the “X ” symbolising
+the ambition to be a force multiplier through
+technology , was launched by Prime Minister
+Lee Hsien Loong at Mediapolis .
+Among its projects to secure Singapore's
+borders , solve crimes , save lives and protect
+public spaces are life -detecting robots and 
+anti - drone vehicles.
+The 1,300 -strong agency is currently
+located at the Ministry of Home Affairs '
+headquarters near Novena .
+At the event, PM Lee urged the various
+Home Team departments to see technology
+as an integral part of their operations so that
+HTX will succeed.
+“Every commander, every officer must
+embrace tech and welcome what HTX can
+do for them , even when using tech means
+disrupting existing routines and established
+ways of doing things.”
+This is a personalised copy.
+Source : The Straits Times Singapore Press Holdings Limited . Permission required for reproduction
+Source: The Straits Times © Singapore Press Holdings Limited. Permission required for reproduction. ",,
+[SPEECH] PM LEE HSIEN LOONG AT THE OFFICIAL LAUNCH OF HTX,18-Jun-21,https://www.htx.gov.sg/news/speech-pm-lee-hsien-loong-at-the-official-launch-of-htx,"SPEECH BY PRIME MINISTER LEE HSIEN LOONG AT THE OFFICIAL LAUNCH OF HTX (HOME TEAM SCIENCE AND TECHNOLOGY AGENCY) ON 2 DECEMBER 2019
+ 
+
+Ministers
+Mr Chew Hock Yong, Chairman, Home Team Science and Technology Agency
+Mr Chan Tsan, Chief Executive
+Distinguished Guests
+Ladies and Gentlemen
+
+A very good afternoon to all of you.
+
+I am very happy to be here today for the official launch of HTX - the Home Team Science and Technology Agency.
+
+Why the name HTX? HT stands for the Home Team – that is not so complicated. But X is a mystery and I’m told that X stands for your ambition to be a force multiplier using technology, so that the Home Team will be many times greater than the sum of its parts. This is a commendable ambition.
+
+HTX is a very important step forward for the Home Team. For many years now, you have built up technological capabilities across different parts of the organisation. Two years ago, I visited Woodlands Checkpoint and saw some of these capabilities in action. SCDF was using robotics and deploying sophisticated techniques to detect hazardous materials. ICA was using facial recognition technology and scanners to improve the efficiency of immigration and customs clearance. These were all worthwhile projects, and a lot of effort had gone into planning and implementing them.
+
+But we also realised that there was potential for the scientists and engineers supporting the different parts of the Home Team to come together, cross-fertilise ideas, and deepen the expertise.
+
+So we discussed the concept of MHA building its own science and engineering organisation. MHA studied this carefully, and decided it was worth doing. Today, HTX is a reality.
+
+HTX has an ambitious mandate. First, to conduct transformative applied research, in areas like biometrics, smart sensors and robotics. Second, to bring together capabilities, knowledge and resources from different Home Team Departments, so that you can function better and in a more integrated way as One Home Team. Third, to build partnerships and collaborations with external partners, including research institutions, universities and polytechnics, and start-ups which may have good ideas for the Home Team. So you have your work cut out for you, and I am glad to see that you have hit the ground running with the many projects which you have exhibited today.
+
+In fact, what we are doing with HTX in MHA is part of a larger effort we are making across the government. Building up tech capabilities, bridging silos, breaking down silos, using resources more efficiently, and recruiting high calibre officers who can translate operational requirements into tech solutions. We have done this with MINDEF and the SAF, through DSTA and DSO. Other agencies are making use of up to date tech too. For example, MOM is using drones to inspect workplaces and ensure they are safe. HDB is developing advanced precast technologies to allow homes to be built much faster, while maintaining their quality. URA is using 3D modelling technology to draft our underground master plans.
+
+This embrace of technology must be a Whole of Government effort. That is why we set up the Smart Nation and Digital Government Office and GovTech – to bring us all up to scratch, to infuse best practices into every agency, and to inculcate a tech-first mindset in all public officers. We must understand the technology intimately, have a good feel of its possibilities and limitations, and be able to make judgments which take full account of engineering possibilities and also operational requirements. And for some of our most vital and sensitive projects like those in the Home Team, we must be able to build the tech solutions ourselves – solutions which are on par with, if not better than, what our partners and our vendors can do.
+
+To fulfil your mandate, HTX will have to overcome two major challenges.
+
+First, you will need top engineering talent across the board. You are not starting from scratch because you already have talent in your ranks. But I know you have ambitious plans to expand by about half, to around 2,000 officers. As a statutory board, you will have more flexibility to hire, develop and reward your staff. But attracting top tier engineering talent is not easy.
+
+The government has tried hard to do this in recent years.We have offered more engineering scholarships to home-grown talent. We are persuading Singaporeans working in the tech sector, including those overseas, to join us. We are attending to the hygiene factors: competitive pay, career progression, good working environment. But to attract top tier talent, they must feel there is something worthwhile that they can achieve. So we are structuring engineering jobs and responsibilities to enable engineers to do valuable work, and to make an impact in the public service.
+
+That is something that HTX can offer them. Protecting lives and property, maintaining law and order and ultimately safeguarding Singapore through the application of science and technology – it is a noble cause, which I hope will inspire our STEM talent to join HTX.
+
+Second, HTX must maintain the ops-tech interface with ground operations. Your work must serve real operational needs. You cannot be doing your own research in an ivory tower. So HTX officers must walk the ground and talk to your uniformed counterparts to understand operating conditions and needs.
+
+I am glad that you will be forward-deploying many of your officers into the Home Team Departments, alongside uniformed officers. For example, your forensic analysts comb crime scenes to gather evidence, while HTX engineers will be stationed at major security deployments. This will provide you with frontline experience and feedback, to help you stay attuned to the operational tempo of the Home Team, and equip you to build solutions that meet their needs.
+
+In the same vein, for HTX to succeed, the Home Team departments – the Police, ICA, SCDF, CNB, Prisons and others – must see tech as an integral part of their operations and as something that is central to their mission. Not an add-on, not something exotic, not something to be left to HTX or the techies to manage on their own. It is a command responsibility. Every officer must embrace technology, and welcome what HTX can do for them, even when using technology means disrupting existing routines and established ways of doing things.
+
+We have made much progress in this effort over the last decade or so. For example,by developing digital forensics capabilities, trialling unmanned surface vessels to patrol our waters, and automating our immigration clearance processes at the border checkpoints. HTX will help take the Home Team to the next level.
+
+ 
+
+Conclusion
+One can argue that Singapore has been built on the back of engineers. You see this in our excellent public infrastructure. The public health system, public housing, the transportation networks. These helped us to modernise our economy and meet many national and social needs.
+
+But it is not just the specific skills of engineers which have made a contribution to Singapore. It is also the discipline of engineering that makes engineers valuable in many not directly engineering roles. Your analytical rigour, your sense of curiosity, your practical approach. Solving problems, not just describing them or lamenting them.
+
+So I have great hopes for what HTX will achieve for the Home Team. I have very high expectations. Beyond the Home Team, HTX can be a centre of excellence within government, sharing your experiences and solutions with other agencies that have similar needs, for instance in enforcement or regulatory work. I am glad that agencies like MOM, Customs and CPIB have already approached HTX to work together.
+
+Finally, let me wish HTX all the very best. I look forward to seeing HTX make its mark – as a key member of the Home Team, as a leading science & technology agency for homeland security, and as a force multiplier for Singapore.
+
+X marks the spot.
+
+Congratulations once again to HTX and the Home Team on this milestone. May HTX long be as unconventional, and indeed as X-ceptional, as your acronym.
+
+Thank you.
+",,
+"[SPEECH] WELCOME REMARKS BY MR CHAN TSAN, CEO OF HTX, AT THE OFFICIAL LAUNCH OF HTX",18-Jun-21,https://www.htx.gov.sg/news/speech-welcome-remarks-by-mr-chan-tsan-ceo-of-htx-at-the-official-launch-of-htx,"WELCOME REMARKS BY MR CHAN TSAN, CHIEF EXECUTIVE OFFICER OF HTX (HOME TEAM SCIENCE AND TECHNOLOGY AGENCY) AT THE OFFICIAL LAUNCH OF HTX ON MONDAY, 2 DECEMBER 2019, AT 1630H, AT THE THEATRE AT MEDIACORP
+ 
+
+Prime Minister
+
+Distinguished Guests and Home Team Colleagues
+
+ 
+
+Good afternoon and welcome to the launch of HTX—the Home Team Science and Technology Agency. 
+
+
+HTX is proud to have become the newest member of the Home Team. We may be young, at just 1 day old, but our sense of mission is strong. Most of HTX’s 1,300 officers are scientists and engineers drawn from the various Home Team Departments. I myself am an engineer by training and a career Home Team officer. So HTX shares the same DNA as all the other Home Team Departments. And we are fully committed to the Home Team mission of keeping Singapore safe and secure.
+
+
+HTX will be the Home Team’s Force Multiplier through Science and Technology. Our ambition is to realise a smarter, swifter, and stronger Home Team—a Home Team powered by HTX solutions.
+
+
+So how will HTX fulfil this ambition?
+
+
+First, we will harness the potential of technological advances and translate them into operational capabilities. We will turn head winds into tail winds by building systems and solutions that will enhance the effectiveness and efficiency of the Home Team.
+
+
+Secondly, we will invest in our human capital and groom the next generation of S&T talent. This is about realising the full potential of our scientists and engineers, making sure that their technical expertise and skills remain cutting-edge in this rapidly-evolving environment.
+
+
+Third, we will work with our partners. Many of our solutions are, and will be, developed in collaboration with our partners from the industry, IHLs, and foreign Governments. Our Public Service partners—DSTA, DSO and GovTech, deserve special mention. By embedding your officers right here in HTX, your support ensures that we optimise limited S&T resources in the Public Service. HTX truly embodies the One Public Service, Team Singapore approach.
+
+
+Fourth, HTX pledges to work alongside our fellow Home Team Departments as One Home Team. As you will see throughout today’s programme, HTX’s technologies are only meaningful when they are deployed in your operations—solving crimes, saving lives, securing our borders, and protecting our public spaces. HTX will succeed only when you succeed.
+
+
+The establishment of HTX today is a significant milestone for MHA. It is not an overnight phenomenon but a multi-year effort. And we have done so by standing on the shoulders of giants. I would like to take a few moments to acknowledge them.
+
+
+Firstly, our political leaders. PM Lee, as well as Ministers both past and present, provided the strategic direction for the creation of HTX. They pushed us to boldly look towards the future, not to rest on our laurels and strive for an ever-safer Singapore. HTX is a direct result of their vision and leadership.
+
+
+Second, our civil service leaders. MHA Permanent Secretaries and Senior Management both past and present are the shepherds of this journey. The emphasis on transformation, investing in capability development, and building organic S&T capacity—these were the foundations they have laid that have guided us to the final destination of HTX. We intend to do them proud.
+
+
+Last but not least, I would like to acknowledge my fellow HTX-men and women. You are an exceptional group of officers—resilient and mission-focused. Your relentless pursuit of excellence over the years is manifest in the capabilities we have in the Home Team. These capabilities are critical to the Home Team’s success today and will be even more so in future. Let us continue to push boundaries together to create meaningful change that will exponentially impact Singapore’s safety and security.
+
+
+In closing, I would like to thank everyone for joining us to celebrate HTX’s launch today. I hope you will enjoy the programme and wish you a very pleasant afternoon. Thank you.",,
+[MEDIA RELEASE] HOME TEAM'S FORCE MULTIPLIER TO KEEP SINGAPORE SAFE AND SECURE THROUGH SCIENCE AND TECH,18-Jun-21,https://www.htx.gov.sg/news/media-release-home-teams-force-multiplier-to-keep-singapore-safe-and-secure-through-science-and-tech,"[Media Release]
+ 
+
+HTX – HOME TEAM’S FORCE MULTIPLIER TO KEEP SINGAPORE SAFE AND SECURE THROUGH SCIENCE AND TECH
+1,300-strong HTX will develop S&T capabilities to solve crimes, save lives, secure borders, safeguard public spaces
+
+Singapore, 2 December 2019 – Prime Minister Lee Hsien Loong officially launched the Home Team Science and Technology Agency (HTX), a statutory board under the Ministry of Home Affairs, today. HTX will harness science and technology (S&T) to exponentially enhance the Home Team’s operations to keep Singapore safe and secure. It will be the Home Team’s Force Multiplier.
+
+The 1,300-strong HTX is an amalgamation of S&T units from the various Home Team Departments, e.g., the Police, SCDF, ICA, Prisons, CNB, and Ministry HQ. HTX will integrate a full range of S&T capabilities in homeland security to solve crimes, save lives, secure borders and safeguard our public spaces. Information on some of the technologies that are being developed by HTX is in Annex A. 
+
+HTX’s scientists and engineers will work hand-in-hand with the Home Team’s operational forces on the ground. In so doing, they will understand intimately the challenges faced and are better able to anticipate the S&T needs of Home Team Departments. It is thus well-positioned to develop customized solutions for use by the Home Team and grow new and deep organic capabilities in S&T for homeland security. Some of HTX’s capabilities include biometrics, smart sensors and robotics. More information about the range of HTX capabilities is in Annex B. 
+
+Building on the Home Team’s current partnerships and collaborations, and fostering new ones with industry, research institutions, academia and start-ups, HTX will be able to integrate new and good ideas to augment the Home Team’s capabilities. HTX will also help to manage the Home Team’s procurement functions.
+
+HTX will facilitate greater co-operation and synergy across the entire homeland security ecosystem, and galvanise the different Home Team Departments to work together even more effectively. This will augment the One Home Team concept and empower Home Team Departments to support one another in their common mission to keep Singapore safe and secure.
+
+
+HTX Leadership
+Mr Chan Tsan is the chief executive of HTX. He is concurrently the Deputy Secretary (Development) at Ministry of Home Affairs. HTX has a Board of Directors made up of 13 leaders in industry, academia and the Home Team. It is chaired by Mr Chew Hock Yong, the Permanent Secretary (Development), Ministry of Home Affairs and Permanent Secretary of the Ministry of Social & Family Development.
+
+ 
+
+ 
+
+ 
+
+Annex A
+INFORMATION SHEET ON TECHNOLOGIES AT THE “SCIENCE AND TECHNOLOGY FOR A SAFE AND SECURE SINGAPORE” EXHIBITION
+ 
+
+A. Solving Crimes with Science & Technology
+1. Latent Fingerprinting: Getting More Out Of Fingerprints 
+Latent print enhancement and analysis is an essential forensic science tool to identify suspects and victims.  In our pursuit to push the boundaries of forensics science, the HTX Forensics Centre of Expertise worked with Nanyang Technological University to develop an innovative method to extract more than a person’s identity from the prints and obtain investigative leads from smudged and low quality latent prints, surpassing the capabilities of conventional latent fingerprint examination.
+
+The new method uses a novel nanopowder formulation and a method of analysis via mass spectrometry to obtain further investigative leads off such prints. After the print is dusted and lifted, it is fed into a mass spectrometer to detect the residues of interest, including those from explosives, narcotics and drug metabolites, and even endogenous secretions that determine the gender and ethnicity of the fingerprint donor. We also plan to expand its capabilities to include lifestyle biomarkers, which will further supplement intelligence.
+
+When implemented in one-two years’ time, there will be automated protocols to process and analyse data obtained from the prints. Home Team officers will be able to retrieve targeted information on their own without relying on forensics officers.   
+
+Singapore is one of a few security agencies in the world pursuing this research.
+
+ 
+
+2. Lab-On-Chip DNA Phenotyping: Generating Leads Better & Quicker
+Conventional DNA analysis treats DNA samples from crime scenes as markers to match with known individuals. However, when met with a suspect who is a ‘cleanskin’, meaning the suspect was not known, or when the DNA is too degraded, conventional methods will not be effective in the identification of suspects.
+
+To overcome the current limitation of DNA analysis. HTX Forensics Centre of Expertise is working with Veredus Labs to develop a DNA Phenotyping Lab-On-Chip technology to amplify DNA and identify unique forensic markers such as gender, blood type and blood group, and biogeographical grouping technology. This approach utilises microfluidic technology, which means only a small amount of fluid is required to run multiple analysis simultaneously, all within a thumbnail-sized chip. Using this method, in the event that a match cannot be found, the analysis can still provide quick and key information about the donor to support investigations. The entire analysis takes less than 3 hours, which is a considerable improvement in efficiency compared to conventional method of analysis, which can take up to a day.
+
+The Lab-on-Chip system comes in a compact form, which offers potential for deployment for real-time analysis at the crime scene. We aim to implement the capability in 2020 to support the Home Team’s operations. We are also working towards patenting the technology within the next few years. 
+
+ 
+
+3. Digital Forensic Kiosk & DIGEST: Digital Forensics On-Demand 
+In our push to increase the efficiency of digital forensics support for investigations, the HTX Digital and Information Forensics Centre of Expertise will be introducing the Digital Forensic Kiosk and DIGEST, a new Digital Evidence Search Tool, to help Home Team transform how it undertakes investigations involving electronic devices and media. This new approach enables the frontline officers who are untrained in forensics to conduct evidence review on their own and generating leads faster.
+
+The Digital Forensic Kiosk extracts contents from various evidence sources such as mobile phone, storage media and other devices. The Kiosk is a self-service platform for officers to easily retrieve and analyse information from digital devices. Designed specifically for non-technical users, the Kiosk will assist officers to scan for possible evidence based on the type of case or data.
+
+We are also in the midst of developing DIGEST, a Digital Evidence Search Tool, to complement the Forensic Kiosk. DIGEST will automate the forensic processing of voluminous data. The system works by ingesting the data required for examination. Once the data is processed, the officer will be notified and he/she will be able to access DIGEST at any time to review the data via a user-friendly interface and generate a customised report.
+
+
+B. Saving Lives with Science & Technology
+Bio-inspired Robots for Search and Rescue Missions 
+Urban search and rescue scenarios are extremely dangerous, particularly when entering buildings where no prior intelligence is available. The HTX Robotics, Automation and Unmanned Systems (RAUS) Centre of Expertise is exploring the adoption of biologically-inspired robots to function as first responders to support disaster rescue efforts and save lives. One of the robots is a four-legged robot that resembles a dog, aptly named Rover-X and the other a life-detection robot that crawls. Both robots have the ability to move and manoeuver like their biological counterparts, which is advantageous for deployment to unstructured hazardous terrain and places that are unsafe for humans.
+
+ 
+
+1. Rover-X (Robotic Dog)
+Rover-X is capable of walking on different types of terrains as well as climbing stairs. It has life detection capabilities. We have customised the robot with technologies such as thermal cameras and sensors to reduce the time required for effective life detection.  We are also equipping Rover-X with the capabilities to map its surroundings and navigate autonomously with minimal operator intervention. Rover-X is a collaboration between HTX, Ghost Robotics and Klass Engineering and Solutions.
+
+ 
+
+2. Life Detection Robot 
+The Life detection Robot is able to crawl through tightly packed debris and rubble. Equipped with thermal camera for detecting heat signature; sensors for detecting human metabolites; and HD cameras and microphone for visual and audio detection, the robot is capable of search and detection of life in a disaster zone. A salient feature of the robot is its on-board laser range finder capable of re-producing 3D maps of the explored environment to generate paths for the rescuers. Currently, this prototype, a collaboration with Hibot, is going through evaluation trials for further refinement.
+
+ 
+
+C. Safeguarding Public Spaces with Science & Technology
+1. XENTINEL: Countering Drones On-Wheels 
+Traditionally, countering drone threats requires the deployment of a team of officers in the vicinity of the incident location or event space to detect drones with the use of ‘human-in-the-loop” sensor capabilities. Should interdiction be required, the officers are equipped with “drone jammer guns”. This mode of operation is labour intensive, and requires significant resources for larger locations and events.  Reliance on human senses limits the detection of the drones at several hundreds of meters at best, with very short time windows for effective interdiction. 
+
+The HTX XENTINEL Mobile Response Vehicle, developed by the HTX Land Systems Centre of Expertise, is the first of its kind counter-drone vehicle. The XENTINEL has capabilities to detect drones up to 1km, thus allowing officers to have more time for effective interdiction, if required.  XENTINEL is designed to be ready within minutes and only requires one officer to operate, therefore creating a multiplier effect to our counter-drone capabilities.
+
+In the next few months, the XENTINEL will be qualified for roadworthiness and ready for operational trials with the SPF. We foresee the development and trial evaluation to complete within a year.
+
+XENTINEL is a joint collaboration between HTX, DSO and ST Engineering. 
+
+ 
+
+2. Drone Box concept with UAVs flown Beyond Visual Line of Sight (BVLOS)
+HTX RAUS Centre of Expertise is currently exploring an advanced mode of unmanned flight operation using a Drone Box concept. Drones can operate autonomously from a backend Command and Control or C2 Centre, and can fly Beyond Visual Line of Sight (BVLOS). This will expand the capabilities and capacities of the Home Team to deploy drones for long-range complex operations out-of-sight from the drone operator.   
+
+Autonomous drones facilitate the viewing of difficult-to-access areas, providing a safer and more cost efficient way of gaining greater insights in critical operations. Without the need for an on-site operator, these drones can operate safely in the most hazardous and remote sites. There is huge potential for BVLOS application in public safety, search and rescue and delivery of supplies.
+
+RAUS is currently working with Home Team departments to design and customize a BVLOS solution for their specific needs and requirements. For instance, we are exploring the use of such technology to deliver Automated External Defibrillators to achieve a shorter response time. 
+
+The solution from Airobotics, featured at the HTX Launch Exhibition, is one of the Drone Box solutions HTX is exploring at the moment.
+
+ 
+
+ 
+
+
+Annex B
+INFORMATION SHEET ON CENTRES OF EXPERTISE
+ 
+
+1. Biometrics and Profiling
+Biometrics and Profiling advances technology adoption standards and R&D efforts in biometric identity management, credibility assessment, and the classification of intent. We support front-line officers by improving their decision-making abilities to authenticate the identities of human subjects, sieving out those with malicious intent, in an efficient and non-intrusive manner.
+
+ 
+
+2. CBRNE
+CBRNE develops capabilities and proprietary technologies in Operations, Research, Technology Deployment and Training in Chemical, Biological, Radiological, Nuclear and Explosives (CBRNE) against the entry of threats, whether it is a civilian or terrorist threat in nature. As a dedicated team of scientists and engineers, we operate a network of CBRNE laboratories round-the-clock to support ICA for border security, as well as SPF and SCDF for CBRNE-related investigations.
+
+ 
+
+3. Command, Control, Communications, Computers and Intelligence (C4I)
+C4I drives the development of C4I (Command, Control, Communications, Computers and Intelligence) systems across the entire Home Team by integrating various technological solutions to gather relevant data, share information and communicate it in the most effective and efficient manner. C4I is key to the enabling of the One Home Team approach in joint operations.
+
+ 
+
+4. Cybersecurity
+The Cyber Security Centre of Expertise steers the development of a comprehensive suite of cybersecurity services and technologies to protect Home Team’s ICT systems against cybersecurity threats. We also develop strategic partnerships with an ecosystem of partners across industry, research and academia to advance and innovate new S&T Cybersecurity capabilities as force multipliers for Home Team Operations.
+
+ 
+
+5. Data Science and AI
+The Data Science and AI Centre of Expertise develops technologies that are deployed in Policing, Counter-Terrorism, Emergency Medical Services and Fire-fighting, Border Operations, Rehabilitation, Corrections, and Drug Control, to enable them to harness immense amounts of information and make more informed decisions to improve internal and mission-based operations.   
+
+ 
+
+6. Digital and Information Forensics
+The Digital and Information Forensics pushes the boundaries of digital investigation with the adoption of cutting-edge technologies to enable the Home Team to acquire and analyse digital evidence effectively. We employ a multi-disciplinary approach involving on-scene, laboratory, and digital forensics, to maximise evidence recovery and analysis to produce fast and actionable leads for our investigators, enabling them to solve crimes more expediently.
+
+ 
+
+7. Forensics
+The Forensics Centre of Expertise develops forefront capabilities to provide scientific and technological forensic analyses and deliver accurate and prompt intelligence for crimes to be solved faster. We support the Home Team Departments by providing forensic analyses and intelligence in crime scene investigations and criminalistics, DNA, narcotics, fire and document forensics. Leveraging on the growth of emerging forensic science and intelligence capabilities, we ensure that the Home Team is adequately positioned and appropriately resourced to deal with a shifting law enforcement environment.
+
+ 
+
+8. Human Factors and Simulation
+Human Factors and Simulation drives the application of a human-centric approach to machines, systems, work processes, and environments that aims to boost performance, productivity and safety in Home Team operations. Our work is focused on three key—Human Augmentation and Exercise Science, Human-Technology User Interface-User Experience (UI-UX) and Extended Reality (XR) Simulation Systems. Human Augmentation and Exercise Science develops innovative solutions to boost endurance, operational performance and minimise injury and fatigue for our frontline officers. Human-Technology UI-UX studies how human interacts with machines to promote better user experience and process efficiency. XR Simulation Systems supports the development of interactive and immersive training environments that mirrors real-life situations to better prepare the frontline officers for dangerous and demanding situations. 
+
+ 
+
+9. Land Systems
+Helming the development of new high tech vehicles and weapons is HTX’s Land Systems Centre of Expertise. Land Systems leads the exploration and adoption of technologies on vehicular platforms, weapon systems, and armament to support Home Team in tactical operations on the ground. Combining innovation and technical excellence, we design and customize robust platforms integrated with cutting-edge technologies to respond to emergencies, and deter and disrupt threats with better precision and speed. 
+
+ 
+
+10. Marine Systems
+Marine Systems is a technological hub for Maritime Security as well as Fire Fighting and Rescue at Sea. We work with the Home Team Departments to strategise and plan for future needs and support them to resolve technical challenges in their everyday operations to keep Singapore safe and secure. Our cutting-edge marine craft technologies enables our front line departments—PCG, to secure our borders and defend against intrusions; as well as for SCDF, to effectively fight fires and handle Chemical, Biological and Radiological incidents at sea.
+
+ 
+
+11. Protective Security and Safety
+HTX’s Protective Security and Safety Centre of Expertise develops long-term capabilities and solutions to protect Singapore’s critical infrastructure, high profile developments and major security events from terrorist threats and to address fire safety risks in buildings.  Our three domains—Protective Security Engineering, Fire Safety Engineering, and Shelters and Civilian Protection—work in tandem to keep our buildings and public spaces safe.
+
+ 
+
+12. Robots, Automation and Unmanned Systems 
+Robots, Automation and Unmanned Systems constantly pushes the limits of machine-human collaboration to enable Home Team officers to do more with lesser human resource and drive greater efficiency in Home Team operations. We develop technological solutions such as robots, drones and counter-drone systems, to support the Home Team Departments in policing, search and rescue and firefighting. Innovative automation solutions are also being developed for various operational tasks to allow manpower to be deployed for higher value-add work. 
+
+ 
+
+13. Sense-making and Surveillance
+Sense-making and Surveillance innovates visual, audio, and other non-visual sensing solutions to support the Home Team in crime deterrence, crime solving, and the delivery of more efficient and coordinated responses to incidents. The primary focus of our work lies in the development of different surveillance technologies integrated with Artificial Intelligence to strengthen our homeland and border security. We also support Home Team Transformation initiatives such as the ‘Prison Without Guards’ concept, where technology is used to pick up patterns of abnormal behaviour in prison cells allowing for earlier intervention before incidents happen.",,
+[MEDIA RELEASE] APPOINTMENT OF CHAIRMAN AND MEMBERS TO THE HTX BOARD OF DIRECTORS,18-Jun-21,https://www.htx.gov.sg/news/appointment-of-chairman-and-members-to-the-htx-board-of-directors,"[Media Release]
+ 
+
+Appointment of the Chairman and Members to the Home Team Science and Technology (HTX) Board of Directors
+ 
+
+The Ministry of Home Affairs (MHA) will appoint 13 leaders in industry, academia and the Home Team to the Home Team Science and Technology Agency (HTX) Board of Directors. Their three-year term will commence on 1 Dec 2019.
+
+
+HTX, a statutory board under MHA, will be established on 1 December 2019. Its mandate is to develop science and technology (S&T) capabilities to enhance the Home Team’s ability to address emerging threats and evolving challenges on the security landscape. Through this, HTX will be a force multiplier for the Home Team.
+
+
+The HTX Board will guide the development of HTX’s S&T strategies and plans, and ensure alignment with the strategic priorities of the Home Team. The HTX Board will also oversee corporate governance of HTX.
+
+
+Mr Chew Hock Yong, Permanent Secretary (Development), Ministry of Home Affairs and Permanent Secretary of the Ministry of Social & Family Development, will serve as Chairman of the HTX Board.
+
+
+Mr Chew said, “HTX has the important mission of providing science and technology support to the Home Team, so that the Home Team agencies are able to effectively keep Singapore safe and secure.  We succeed only if the Home Team succeeds.  HTX is to the Home Team what Q is to 007 in the James Bond movies. I look forward to working with fellow board members and HTX officers.”
+
+
+Mr Chan Tsan, Deputy Secretary (Development) of the Ministry of Home Affairs will be concurrently appointed as HTX’s Chief Executive on 1 Dec 2019. He will also be appointed to the HTX Board.
+
+
+Prominent industry leader Ms Janet Ang, Chairman of the Institute of Systems Science of NUS and formerly IBM Vice President, will also be appointed to the HTX Board. She said, “I am honoured to have the opportunity to tap on my deep experience in the IT industry to guide HTX in growing its S&T capabilities and developing innovative technologies and solutions that will contribute to a safe and secure Singapore.”
+
+
+Another member, Prof Chong Tow Chong, President, Singapore University of Technology and Design, said, “I am honoured to be part of the HTX Board and look forward to contributing towards HTX’s efforts in collaborating with industry and academia and translating cutting-edge research into impactful solutions for Singapore’s safety and security. Through these efforts, we hope to boost Singapore’s innovation ecosystem and develop S&T talents with relevant expertise to achieve transformative capabilities for the Home Team.”
+ 
+
+HTX Board Members
+
+The full membership of the HTX Board is as follows:
+
+Mr Chew Hock Yong, Chairman, HTX Board; Permanent Secretary (Development), Ministry of Home Affairs; Permanent Secretary, Ministry of Social & Family Development
+Mr Chan Tsan, Chief Executive, HTX; Deputy Secretary (Development), Ministry of Home Affairs
+Mr Hoong Wee Teck, Commissioner, Singapore Police Force
+Mr Yap Wee Teck Eric, Commissioner, Singapore Civil Defence Force
+Mr Sim Wai Meng Marvin, Commissioner, Immigration & Checkpoints Authority
+Mr Chin Kim Tham Desmond, Commissioner, Singapore Prison Service
+Mr Ng Ser Song, Director, Central Narcotics Bureau
+Mr Ong Pang Thye, Managing Partner, KPMG
+Ms Janet Ang Guat Har, Chairman, Institute of Systems Science of NUS; Former IBM Vice President
+Prof Chong Tow Chong, President, Singapore University of Technology and Design
+Ms Carmen Wee Yik Cheng, Former Group Chief Human Resource Officer, Surbana Jurong
+Mr Richard Koh Chin Kiong, Chief Technology Officer, Microsoft Singapore
+Mr Chang Yew Kong, Independent Director, ZWEEC; Chairman, Management Committee, WizVision
+ 
+
+MINISTRY OF HOME AFFAIRS
+20 NOVEMBER 2019",,
